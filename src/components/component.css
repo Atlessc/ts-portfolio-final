@@ -1,9 +1,8 @@
 .Container {
-    border: 2px solid blueviolet;
+    border: 2px solid rgb(0, 0, 0);
     display: flex;
     flex-direction: column;
     height: 70%;
-    background-color: rgb(165, 165, 165);
     margin: 15px;
     padding: 10px;
 }
@@ -20,7 +19,7 @@
     position: sticky;
     top: 0;
     z-index: 10;
-    box-shadow: -5px 5px  rgba(0, 0, 0, 1);
+    box-shadow: -5px 7px 0px rgba(0, 0, 0, 1);
     border-radius: 10px;
     -webkit-border-radius: 10px;
     -moz-border-radius: 10px;
@@ -79,11 +78,67 @@
     align-items: center;
 }
 
-.Footer {
-    border: 2px solid rgb(0, 255, 34);
+.ProjectsContainer {
+    border: 2px solid rgb(180, 180, 180);
+    background-color: rgb(225, 225, 225);
     display: flex;
     flex-direction: column;
-    background-color: rgb(255, 103, 103);
+    justify-content: center;
+    align-items: center;
+    height: fit-content;
+    padding: 10px;
+    margin: 15px;
+    box-shadow: -5px 7px 0px rgba(0, 0, 0, 1);
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.Projects-Heading {
+    font-size: 40px;
+    color: rgb(0, 0, 0);
+}
+
+.Projects {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.ProjectLinks {
+    border: 2px solid black;
+    background-color: rgb(178, 74, 74);
+    width: fit-content;
+    height: fit-content;
+    margin: 7px;
+    padding: 5px;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    border-radius: 10px;
+    font-size: 25px;
+}
+
+.Footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid rgb(180, 180, 180);
+    background-color: rgb(225, 225, 225);
+    color: black;
+    display: flex;
+    flex-direction: column;
     margin: 15px;
     padding: 10px;
+    box-shadow: -5px 7px 0px rgba(0, 0, 0, 1);
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+
 }

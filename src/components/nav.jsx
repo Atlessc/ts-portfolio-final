@@ -20,6 +20,7 @@ export function NavSection() {
                 <div className="NavLinks">
                     <Link to="/" className="NavItem">Home</Link>
                     <Link to="/resume" className="NavItem">Resume</Link>
+                    <Link to="/projects" className="NavItem">Projects</Link>
                     <Link to="/contact" className="NavItem">Contact</Link>
                 </div>
                 :

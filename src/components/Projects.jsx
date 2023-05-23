@@ -1,0 +1,35 @@
+import { FooterSection } from "./footer";
+import { NavSection } from "./nav";
+import "./component.css";
+
+export default function ProjectsPage() {
+    return (
+        <div className="Container">
+            <NavSection />
+        <div className="ProjectsContainer">
+            <h1 className="Projects-Heading">Take a look at my Projects!</h1>
+            <div className="Projects">
+            <a href="https://dream-v2.vercel.app/" target="_blank" className="ProjectLinks">
+                <div>Dream</div>
+            </a>
+            <a href="https://thinkr.vercel.app/" target="_blank" className="ProjectLinks">
+                <div>Thinkr</div>
+            </a>
+            <a href="#" target="_blank" className="ProjectLinks" >
+                <div>another one</div>
+            </a>
+            <a href="#" target="_blank" className="ProjectLinks" >
+                <div>another one</div>
+            </a>
+            <a href="#" target="_blank" className="ProjectLinks" >
+                <div>another one</div>
+            </a>
+            <a href="#" target="_blank" className="ProjectLinks" >
+                <div>another one</div>
+            </a>
+            </div>
+        </div>
+        <FooterSection />
+        </div>
+    )
+}
