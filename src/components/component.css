@@ -1,0 +1,89 @@
+.Container {
+    border: 2px solid blueviolet;
+    display: flex;
+    flex-direction: column;
+    height: 70%;
+    background-color: rgb(165, 165, 165);
+    margin: 15px;
+    padding: 10px;
+}
+
+.Nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    padding: 0 2rem;
+    height: 50px;
+    margin-bottom: 20px;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    box-shadow: -5px 5px  rgba(0, 0, 0, 1);
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.Logo {
+    color: black;
+    font-size: 35px;
+}
+
+.NavButton {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.Menubutton {
+    height: 35px;
+    width: 35px;
+    font-size: 20px;
+    background-color: rgb(178, 74, 74);
+    color: rgba(0, 0, 0, 1);
+    border: 1px solid black;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.NavLinks {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.NavItem {
+    margin: 0 1rem;
+    cursor: pointer;
+    width: auto;
+    height: auto;
+    margin: 5px;
+    padding: 10px;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 10px;
+}
+
+.Resume {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.Footer {
+    border: 2px solid rgb(0, 255, 34);
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(255, 103, 103);
+    margin: 15px;
+    padding: 10px;
+}
