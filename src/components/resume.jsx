@@ -9,12 +9,12 @@ export function ResumePage() {
             <NavSection />
             <div className="Resume">
                 <div className="ResumeHeader">Tyler Smith's Resume</div>
-                <div className="AspireQuote"><i>Motivated and detail-oriented individual with a passion for coding and web development. Possessing 7 certificates, 6 months of hands-on experience in HTML, CSS, Javascript, typescript, SQL, JSON, React, and a personal website built from scratch while learning. Continuously expanding skillset with a focus on Express, Angular, NestJS, and other languages. Committed to delivering high-quality results and eager to bring customer service and tech support background to a new role as a junior web developer.</i></div>
+                <div className="AspireQuote"><i>Motivated and detail-oriented individual with a passion for coding and web development. Possessing 7 certificates, 6 months of hands-on experience in HTML, CSS, Javascript, typescript, SQL, JSON, React, and a personal website built from scratch while learning. Committed to delivering high-quality results and eager to bring customer service and tech support background to a new role as a junior web developer.</i></div>
                 <hr />
                 <div className="SectionProXP">
                     <div className="SectionHeader">Professional Experience</div>
+                    {/* Nike job */}
                     <div className="SectionContent">
-                        {/* Nike job */}
                         <section className="JobSection">
                             <div className="JobTitle">Deskside Tech</div>
                             <div className="JobCompany">AXA Pro @ Stephanini (@ Nike WHQ)</div>
@@ -62,21 +62,6 @@ export function ResumePage() {
                                 <li>Patched network panels in coordination with coworkers to active Ethernet ports throughout a few schools</li>
                                 <li>Worked on plans for Teacher Policies in Windows Active Directory and Google Identity Services for Chrome extension force installs</li>
                                 <li>Performed cable management for existing computer setups for uniformity and quick access to asset tags for logging what hardware is in what location in an excel spreadsheet</li>
-                            </ul>
-                        </div>
-                        </section>
-                        {/* Columbia Sportswear job */}
-                        <hr className="HRjobs" />
-                        <section className="JobSection">
-                        <div className="JobTitle">Call Center Agent</div>
-                        <div className="JobCompany">Columbia Sportswear</div>
-                        <div className="JobDates">Nov 2020 - March 2021</div>
-                        <div className="JobDescription">
-                            <ul>
-                                <li>Answer questions about the products to make sale (without commission)</li>
-                                <li>Have a friendly and respectful Demeanor, even when the situation was hostile after a new product broke</li>
-                                <li> stay up-to-date on the company's product line and learn fast</li>
-                                <li> create tickets for every call using Zendesk</li>
                             </ul>
                         </div>
                         </section>
@@ -216,15 +201,6 @@ export function ResumePage() {
                                 <div className='CertDate'>Exp Dec 2023</div>
                             </div>
                         </div>
-                    </div>
-                </div>
-                <div className="Section Edu">
-                    <div className="SectionHeader">Education</div>
-                    <div className="SectionContent">
-                        <div className="School">
-                            <div className="SchoolName">Portland Community College from 2014 - 2015</div>
-                            <div className="SchoolLocation">Portland, OR</div>
-                            <div className="SchoolDegree">No Degree</div></div>
                     </div>
                 </div>
             </div>

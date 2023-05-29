@@ -16,16 +16,16 @@ export default function ProjectsPage() {
                 <div>Thinkr</div>
             </a>
             <a href="#" target="_blank" className="ProjectLinks" >
-                <div>another one</div>
+                <div>Another One</div>
             </a>
             <a href="#" target="_blank" className="ProjectLinks" >
-                <div>another one</div>
+                <div>Another One</div>
             </a>
             <a href="#" target="_blank" className="ProjectLinks" >
-                <div>another one</div>
+                <div>Another One</div>
             </a>
             <a href="#" target="_blank" className="ProjectLinks" >
-                <div>another one</div>
+                <div>Another One</div>
             </a>
             </div>
         </div>
