@@ -14,7 +14,6 @@ export function NavSection() {
         <div className="Nav">
             <div className="Logo">Tyler Smith's Resume</div>
             <div className="NavButton">
-            
                 {
                 nav ?
                 <div className="NavLinks">
