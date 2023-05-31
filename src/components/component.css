@@ -63,6 +63,7 @@
     flex-direction: row;
     justify-content: flex-end;
     align-items: center;
+
 }
 
 .NavItem {
@@ -75,9 +76,10 @@
     border: 1px solid rgb(0, 0, 0);
     border-radius: 10px;
     text-decoration: none;
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     font-weight: bold;
     font-size: 15px;
+    background-color: rgb(178, 74, 74);
 }
 
 .Resume {
@@ -169,6 +171,36 @@
     flex-direction: column;
     margin: 15px;
     padding: 10px;
+    box-shadow: -5px 7px 0px rgba(0, 0, 0, 1);
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+
+}
+
+.XPCards {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    
+
+}
+
+.JobCard {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid rgb(180, 180, 180);
+    background-color: rgb(225, 225, 225);
+    color: black;
+    width: 100px;
+    padding: 10px;
+    margin: 15px;
     box-shadow: -5px 7px 0px rgba(0, 0, 0, 1);
     border-radius: 10px;
     -webkit-border-radius: 10px;
