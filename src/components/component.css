@@ -3,7 +3,6 @@
 }
 
 .Container {
-    border: 2px solid rgb(0, 0, 0);
     display: flex;
     flex-direction: column;
     height: 70%;
@@ -16,14 +15,15 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    background-color: #fff;
+    border: 3px solid rgb(0, 0, 0);
+    background-color: rgb(155,155,155);
     padding: 0 2rem;
-    height: 50px;
+    height: 60px;
     margin-bottom: 20px;
     position: sticky;
     top: 0;
     z-index: 10;
-    box-shadow: -5px 7px 0px rgba(0, 0, 0, 1);
+    box-shadow: -5px 7px 0px rgba(0, 0, 0, 0.6);
     border-radius: 10px;
     -webkit-border-radius: 10px;
     -moz-border-radius: 10px;
@@ -48,14 +48,15 @@
     height: 35px;
     width: 35px;
     font-size: 20px;
-    background-color: rgb(178, 74, 74);
+    background-color: rgb(163, 89, 89);
     color: rgba(0, 0, 0, 1);
-    border: 1px solid black;
+    border: 2px solid black;
     border-radius: 5px;
     -webkit-border-radius: 5px;
     -moz-border-radius: 5px;
     -ms-border-radius: 5px;
     -o-border-radius: 5px;
+    box-shadow: -3px 4px 0px rgba(0, 0, 0, 0.6);
 }
 
 .NavLinks {
@@ -63,28 +64,32 @@
     flex-direction: row;
     justify-content: flex-end;
     align-items: center;
-
 }
 
 .NavItem {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
     margin: 0 1rem;
     cursor: pointer;
-    width: auto;
+    width: 70px;
     height: auto;
     margin: 5px;
     padding: 10px;
-    border: 1px solid rgb(0, 0, 0);
+    border: 2px solid rgb(0, 0, 0);
     border-radius: 10px;
     text-decoration: none;
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
     font-weight: bold;
     font-size: 15px;
-    background-color: rgb(178, 74, 74);
+    background-color: rgb(163, 89, 89);
+    box-shadow: -3px 4px 0px rgba(0, 0, 0, 0.6);
 }
 
 .Resume {
-    border: 2px solid rgb(180, 180, 180);
-    background-color: rgb(225, 225, 225);
+    border: 2px solid rgb(0, 0, 0);
+    background-color: rgb(155,155,155);
     color: black;
     display: flex;
     flex-direction: column;
@@ -93,7 +98,7 @@
     height: fit-content;
     padding: 35px 100px;
     margin: 15px;
-    box-shadow: -5px 7px 0px rgba(0, 0, 0, 1);
+    box-shadow: -5px 7px 0px rgba(0, 0, 0, 0.6);
     border-radius: 10px;
     -webkit-border-radius: 10px;
     -moz-border-radius: 10px;
@@ -105,19 +110,35 @@
     font-size: 40px;
     font-weight: bold;
 }
+
 .SectionHeader {
     font-size: 30px;
     font-weight: bold;
+    margin: 20px 0;
+    text-align: center;
 }
 
-.JobTitle {
-    font-size: 20px;
+.CertHeader {
+    font-size: 30px;
     font-weight: bold;
+    margin: 20px 0;
+    text-align: center;
+}
+
+.Certificates {
+    text-align: center;
+}
+
+
+.Certificates hr {
+    border: 2px solid rgb(0, 0, 0);
+    margin: 10px;
+    background-color: black;
 }
 
 .ProjectsContainer {
-    border: 2px solid rgb(180, 180, 180);
-    background-color: rgb(225, 225, 225);
+    border: 2px solid rgb(0, 0, 0);
+    background-color: rgb(155,155,155);
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -125,7 +146,7 @@
     height: fit-content;
     padding: 10px;
     margin: 15px;
-    box-shadow: -5px 7px 0px rgba(0, 0, 0, 1);
+    box-shadow: -5px 7px 0px rgba(0, 0, 0, 0.6);
     border-radius: 10px;
     -webkit-border-radius: 10px;
     -moz-border-radius: 10px;
@@ -140,23 +161,109 @@
 
 .Projects {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    flex: 1 1 calc(50% - 10px);
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-
+    margin-bottom: 30px;
+    width: 70%;
 }
 
 .ProjectLinks {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
     border: 2px solid black;
-    background-color: rgb(178, 74, 74);
-    width: fit-content;
-    height: fit-content;
+    background-color: rgb(163, 89, 89);
+    width: 150px;
+    height: 30px;
     margin: 7px;
     padding: 10px;
     text-decoration: none;
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    font-weight: bold;
     border-radius: 10px;
-    font-size: 25px;
+    font-size: 20px;
+    box-shadow: -5px 7px 0px rgba(0, 0, 0, 0.6);
+}
+
+.XPCardsTitle {
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    margin: 30px 0;
+}
+
+.XPCards {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    width: 100%;
+    max-height: 600px;
+
+}
+
+.JobCard {
+    display: flex;
+    flex: 1 1 calc(20% - 10px);
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid rgb(77, 42, 42);
+    background-color: rgb(163, 89, 89);
+    color: black;
+    max-width: 255px;
+    min-height: 80px;
+    max-width: 325px;
+    padding: 10px 10px 10px 10px;
+    padding-top: 15px;
+    margin: 15px;
+    box-shadow: -5px 7px 0px rgba(0, 0, 0, 0.6);
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.JobCard-1 img {
+    width: 154px;
+}
+
+.JobCard-2 img {
+    width: 186px;
+}
+
+.JobCard-3 img {
+    width: 63px;
+}
+
+.JobCard-4 img {
+    width: 200px;
+    margin-top: 6px;
+}
+
+.JobCard-5 img {
+    width: 150px;
+}
+
+.JobCard-6 img {
+    width: 130px;
+}
+
+.JobCard-7 img {
+    width: 220px;
+    margin: 19px 0 10px 0;
+}
+
+.JobCard-8 img {
+    width: 80px;
+
 }
 
 .Footer {
@@ -164,48 +271,18 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    border: 2px solid rgb(180, 180, 180);
-    background-color: rgb(225, 225, 225);
+    border: 3px solid rgb(0, 0, 0);
+    background-color: rgb(155,155,155);
     color: black;
     display: flex;
     flex-direction: column;
     margin: 15px;
     padding: 10px;
-    box-shadow: -5px 7px 0px rgba(0, 0, 0, 1);
+    box-shadow: -5px 7px 0px rgba(0, 0, 0, 0.6);
     border-radius: 10px;
     -webkit-border-radius: 10px;
     -moz-border-radius: 10px;
     -ms-border-radius: 10px;
     -o-border-radius: 10px;
-
-}
-
-.XPCards {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    
-
-}
-
-.JobCard {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    border: 2px solid rgb(180, 180, 180);
-    background-color: rgb(225, 225, 225);
-    color: black;
-    width: 100px;
-    padding: 10px;
-    margin: 15px;
-    box-shadow: -5px 7px 0px rgba(0, 0, 0, 1);
-    border-radius: 10px;
-    -webkit-border-radius: 10px;
-    -moz-border-radius: 10px;
-    -ms-border-radius: 10px;
-    -o-border-radius: 10px;
-
+    font-weight: bold;
 }

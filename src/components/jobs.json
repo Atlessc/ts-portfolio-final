@@ -1,103 +1,98 @@
 [
     {
-        "jobs":
-            [
-                {
-                    "id": 1,
-                    "logo": "src/components/Images/Nike.png",
-                    "company": "Nike",
-                    "title": "[JOB TITLE]",
-                    "date": "date - date",
-                    "duties": [
-                        "[DUTIES]",
-                        "[DUTIES]",
-                        "[DUTIES]"
-                    ]
-                },
-                {
-                    "id": 2,
-                    "logo": "src/components/Images/Legacy Health.png",
-                    "company": "Legacy Health",
-                    "title": "[JOB TITLE]",
-                    "date": "date - date",
-                    "duties": [
-                        "[DUTIES]",
-                        "[DUTIES]",
-                        "[DUTIES]"
-                    ]
-                },
-                {
-                    "id": 3,
-                    "logo": "src/components/Images/PPS.png",
-                    "company": "Portland Public Schools",
-                    "title": "[JOB TITLE]",
-                    "date": "date - date",
-                    "duties": [
-                        "[DUTIES]",
-                        "[DUTIES]",
-                        "[DUTIES]"
-                    ]
-                },
-                {
-                    "id": 4,
-                    "logo": null,
-                    "company": "Doctors of Technology LLC",
-                    "title": "[JOB TITLE]",
-                    "date": "date - date",
-                    "duties": [
-                        "[DUTIES]",
-                        "[DUTIES]",
-                        "[DUTIES]"
-                    ]
-                },
-                {
-                    "id": 5,
-                    "logo": "src/components/Images/Consumer cell.png",
-                    "company": "Consumer Cellular",
-                    "title": "[JOB TITLE]",
-                    "date": "date - date",
-                    "duties": [
-                        "[DUTIES]",
-                        "[DUTIES]",
-                        "[DUTIES]"
-                    ]
-                },
-                {
-                    "id": 6,
-                    "logo": "src/components/Images/Supra.png",
-                    "company": "Supra LockBox",
-                    "title": "[JOB TITLE]",
-                    "date": "date - date",
-                    "duties": [
-                        "[DUTIES]",
-                        "[DUTIES]",
-                        "[DUTIES]"
-                    ]
-                },
-                {
-                    "id": 7,
-                    "logo": "src/components/Images/SimpliSafe.png",
-                    "company": "SimpliSafe",
-                    "title": "[JOB TITLE]",
-                    "date": "date - date",
-                    "duties": [
-                        "[DUTIES]",
-                        "[DUTIES]",
-                        "[DUTIES]"
-                    ]
-                },
-                {
-                    "id": 8,
-                    "logo": "src/components/Images/Apple.png",
-                    "company": "AppleCare",
-                    "title": "Tech Suport Advice",
-                    "date": "date - date",
-                    "duties": [
-                        "[DUTIES]",
-                        "[DUTIES]",
-                        "[DUTIES]"
-                    ]
-                }
-            ]
+        "id": 1,
+        "logo": "src/components/Images/Nike.png",
+        "company": "Nike",
+        "title": "[JOB TITLE]",
+        "date": "date - date",
+        "duties": [
+            "[DUTIES]",
+            "[DUTIES]",
+            "[DUTIES]"
+        ]
+    },
+    {
+        "id": 2,
+        "logo": "src/components/Images/Legacy Health.png",
+        "company": "Legacy Health",
+        "title": "[JOB TITLE]",
+        "date": "date - date",
+        "duties": [
+            "[DUTIES]",
+            "[DUTIES]",
+            "[DUTIES]"
+        ]
+    },
+    {
+        "id": 3,
+        "logo": "src/components/Images/PPS.png",
+        "company": "Portland Public Schools",
+        "title": "[JOB TITLE]",
+        "date": "date - date",
+        "duties": [
+            "[DUTIES]",
+            "[DUTIES]",
+            "[DUTIES]"
+        ]
+    },
+    {
+        "id": 4,
+        "logo": "src/components/Images/Reboot.png",
+        "company": "Reboot Computers",
+        "title": "[JOB TITLE]",
+        "date": "date - date",
+        "duties": [
+            "[DUTIES]",
+            "[DUTIES]",
+            "[DUTIES]"
+        ]
+    },
+    {
+        "id": 5,
+        "logo": "src/components/Images/Consumer cell.png",
+        "company": "Consumer Cellular",
+        "title": "[JOB TITLE]",
+        "date": "date - date",
+        "duties": [
+            "[DUTIES]",
+            "[DUTIES]",
+            "[DUTIES]"
+        ]
+    },
+    {
+        "id": 6,
+        "logo": "src/components/Images/Supra.png",
+        "company": "Supra LockBox",
+        "title": "[JOB TITLE]",
+        "date": "date - date",
+        "duties": [
+            "[DUTIES]",
+            "[DUTIES]",
+            "[DUTIES]"
+        ]
+    },
+    {
+        "id": 7,
+        "logo": "src/components/Images/SimpliSafe.png",
+        "company": "SimpliSafe",
+        "title": "[JOB TITLE]",
+        "date": "date - date",
+        "duties": [
+            "[DUTIES]",
+            "[DUTIES]",
+            "[DUTIES]"
+        ]
+    },
+    {
+        "id": 8,
+        "logo": "src/components/Images/Apple.png",
+        "company": "AppleCare",
+        "title": "Tech Suport Advice",
+        "date": "date - date",
+        "duties": [
+            "[DUTIES]",
+            "[DUTIES]",
+            "[DUTIES]"
+        ]
     }
 ]

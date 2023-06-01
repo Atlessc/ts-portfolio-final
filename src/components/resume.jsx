@@ -159,46 +159,54 @@ export function ResumePage() {
                     </div>
                 </div> */}
                 <div>
-                    <div className="SectionHeader">Personal Experience</div>
                     <div className="SectionContent">
                         <div className="Certificates">
                             <div className="CertHeader">Certificates</div>
                             <div className="CertSection">
-                                <a href=''><div className='CertTitle'>CompTIA A+ Certification – CompTIA Virtual Tech Support Program<BoxArrowUpRight size="16" /></div></a>
+                                <a href="" disable><div className='CertTitle'>CompTIA A+ Certification – CompTIA Virtual Tech Support Program<BoxArrowUpRight size="16" /></div></a>
                                 <div className='CertDate'>Exp April 2024</div>
                             </div>
+                            <hr/>
                             <div className="CertSection">
                                 <a href='https://learn.nexthink.com/c/071gGxwWTf6ZEONwZSCsdA' target='_blank'><div className='CertTitle'>NexThink Infinite Fundamentals<BoxArrowUpRight size="16" /></div></a>
                                 <div className='CertDate'>Exp Dec 2023</div>
                             </div>
+                            <hr/>
                             <div className="CertSection">
                                 <a href='https://www.udemy.com/certificate/UC-4c3d053b-c9b8-4c03-86c0-ba00f74d71e8/' target='_blank'><div className='CertTitle'>Master Prompt Engineering with ChatGPT<BoxArrowUpRight size="16" /></div></a>
                                 <div className='CertDate'>Feb 2023</div>
                             </div>
+                            <hr/>
                             <div className="CertSection">
                                 <a href='https://freecodecamp.org/certification/atlessc/responsive-web-design' target='_blank'><div className="CertTitle">FreeCodeCamp's Responsive Web Design Certificate<BoxArrowUpRight size="16" /></div></a>
                                 <div className='CertDate'>Jan 2023</div>
                             </div>
+                            <hr/>
                             <div className="CertSection">
                                 <a href='https://www.sololearn.com/Certificate/1023-61766/pdf/' target='_blank'><div className='CertTitle'>SoloLearn Theoretical Understanding of CSS Certificate<BoxArrowUpRight size="16" /></div></a>
                                 <div className='CertDate'>Dec 2022</div>
                             </div>
+                            <hr/>
                             <div className="CertSection">
                                 <a href='https://www.sololearn.com/certificates/CT-GGJRCXKJ' target='_blank'><div className='CertTitle'>SoloLearn Theoretical Understanding of HTML Certificate<BoxArrowUpRight size="16" /></div></a>
                                 <div className='CertDate'>Dec 2022</div>
                             </div>
+                            <hr/>
                             <div className="CertSection">
                                 <a href='https://www.sololearn.com/certificates/course/en/61766/1024/landscape/png' target='_blank'><div className='CertTitle'>SoloLearn Theoretical Understanding of JavaScript Certificate<BoxArrowUpRight size="16" /></div></a>
                                 <div className='CertDate'>Dec 2022</div>
                             </div>
+                            <hr/>
                             <div className="CertSection">
                                 <a href='https://www.sololearn.com/Certificate/1097-61766/pdf/' target='_blank'><div className='CertTitle'>SoloLearn Theoretical Understanding of React + Redux Certificate<BoxArrowUpRight size="16" /></div></a>
                                 <div className='CertDate'>Dec 2022</div>
                             </div>
+                            <hr/>
                             <div className="CertSection">
                                 <a href='https://www.sololearn.com/Certificate/1162-61766/pdf/' target='_blank'><div className='CertTitle'>SoloLearn Theoretical Understanding of Responsive Web Design Certificate<BoxArrowUpRight size="16" /></div></a>
                                 <div className='CertDate'>Dec 2022</div>
                             </div>
+                            <hr/>
                             <div className="CertSection">
                                 <a href='https://www.sololearn.com/Certificate/1141-61766/pdf/' target='_blank'><div className='CertTitle'>SoloLearn Theoretical Understanding of Web Dev Fundamentals Certificate<BoxArrowUpRight size="16" /></div></a>
                                 <div className='CertDate'>Exp Dec 2023</div>
