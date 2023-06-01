@@ -27,6 +27,12 @@ export default function ProjectsPage() {
             <a href="#" target="_blank" className="ProjectLinks" >
                 <div>Another One</div>
             </a>
+            <a href="#" target="_blank" className="ProjectLinks" >
+                <div>Another One</div>
+            </a>
+            <a href="#" target="_blank" className="ProjectLinks" >
+                <div>Another One</div>
+            </a>
             </div>
         </div>
         <FooterSection />
