@@ -5,9 +5,11 @@
 .Container {
     display: flex;
     flex-direction: column;
-    height: 70%;
+    min-height: 100vh;
+    max-height: fit-content;
     margin: 15px;
     padding: 10px;
+
 }
 
 .Nav {
@@ -85,6 +87,31 @@
     font-size: 15px;
     background-color: rgb(163, 89, 89);
     box-shadow: -3px 4px 0px rgba(0, 0, 0, 0.6);
+}
+
+.Home {
+    border: 2px solid rgb(0, 0, 0);
+    background-color: rgb(155,155,155);
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: fit-content;
+    padding: 35px 100px;
+    margin: 15px;
+    box-shadow: -5px 7px 0px rgba(0, 0, 0, 0.6);
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    font-weight: bold;
+}
+
+.Home p {
+    font-size: 20px;
+    width: 60%;
 }
 
 .Resume {
@@ -263,6 +290,122 @@
 
 .JobCard-8 img {
     width: 80px;
+
+}
+
+.Contact {
+    border: 2px solid rgb(0, 0, 0);
+    background-color: rgb(155,155,155);
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: fit-content;
+    padding: 35px 100px;
+    margin: 15px;
+    box-shadow: -5px 7px 0px rgba(0, 0, 0, 0.6);
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.Contact-Header {
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.Contact form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.Contact-Name {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    margin: 15px 0;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.Contact-Name input {
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    padding: 5px;
+    margin-left: 10px;
+
+}
+
+.Contact-Email {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    margin: 15px 0;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.Contact-Email input {
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    padding: 5px;
+    margin-left: 10px;
+
+}
+
+.Contact-Message {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin: 15px 0;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.Contact-Message textarea {
+    width: 450px;
+    height: 100px;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    padding: 10px;
+    font-family: monospace;
+}
+
+.Conatct-SubmitBtn {
+    width: 100px;
+    height: 50px;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    margin: 0 auto;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: rgb(163, 89, 89);
+    color: black;
+    box-shadow: -5px 7px 0px rgba(0, 0, 0, 0.6);
 
 }
 

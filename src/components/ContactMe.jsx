@@ -8,21 +8,21 @@ export function ContactPage() {
         <NavSection />
     <div className="Contact">
             <div>
-            <div>Contact me</div>
+            <div className="Contact-Header">Contact Me</div>
             <form action="https://formsubmit.co/tylersmith4596@gmail.com#" method="POST">
-                <label>
+                <label className="Contact-Name">
                     Name:
-                    <input type="text" name="name" />
+                    <input type="text" name="name" placeholder="John Smith" />
                 </label>
-                <label>
+                <label className="Contact-Email">
                     Email:
                     <input type="email" name="email" placeholder="JohnSmith@Email.com" required />
                 </label>
-                <label className="Message">
+                <label className="Contact-Message">
                     Message:<br/>
-                    <textarea name="message" placeholder="Send me a message! this will directly Email me" />
+                    <textarea name="message" placeholder="Send me a message! This will email me directly" />
                 </label>
-                <input type="submit" value="Submit" />
+                <input type="submit" value="Submit" className="Conatct-SubmitBtn"/>
             </form>
             </div>
 </div>
