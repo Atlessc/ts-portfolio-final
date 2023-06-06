@@ -1,7 +1,7 @@
 [
     {
         "id": 1,
-        "logo": "./src/components/Images/Nike.png",
+        "logo": "/src/components/Images/Nike.png",
         "company": "Nike",
         "title": "[JOB TITLE]",
         "date": "date - date",
@@ -13,7 +13,7 @@
     },
     {
         "id": 2,
-        "logo": "./src/components/Images/Legacy Health.png",
+        "logo": "/src/components/Images/Legacy Health.png",
         "company": "Legacy Health",
         "title": "[JOB TITLE]",
         "date": "date - date",
@@ -25,7 +25,7 @@
     },
     {
         "id": 3,
-        "logo": "./src/components/Images/PPS.png",
+        "logo": "/src/components/Images/PPS.png",
         "company": "Portland Public Schools",
         "title": "[JOB TITLE]",
         "date": "date - date",
@@ -37,7 +37,7 @@
     },
     {
         "id": 4,
-        "logo": "./src/components/Images/Reboot.png",
+        "logo": "/src/components/Images/Reboot.png",
         "company": "Reboot Computers",
         "title": "[JOB TITLE]",
         "date": "date - date",
@@ -49,7 +49,7 @@
     },
     {
         "id": 5,
-        "logo": "./src/components/Images/Consumer cell.png",
+        "logo": "/src/components/Images/Consumer cell.png",
         "company": "Consumer Cellular",
         "title": "[JOB TITLE]",
         "date": "date - date",
@@ -61,7 +61,7 @@
     },
     {
         "id": 6,
-        "logo": "./src/components/Images/Supra.png",
+        "logo": "/src/components/Images/Supra.png",
         "company": "Supra LockBox",
         "title": "[JOB TITLE]",
         "date": "date - date",
@@ -73,7 +73,7 @@
     },
     {
         "id": 7,
-        "logo": "./src/components/Images/SimpliSafe.png",
+        "logo": "/src/components/Images/SimpliSafe.png",
         "company": "SimpliSafe",
         "title": "[JOB TITLE]",
         "date": "date - date",
@@ -85,7 +85,7 @@
     },
     {
         "id": 8,
-        "logo": "./src/components/Images/Apple.png",
+        "logo": "/src/components/Images/Apple.png",
         "company": "AppleCare",
         "title": "Tech Suport Advice",
         "date": "date - date",
