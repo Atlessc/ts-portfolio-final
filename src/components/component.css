@@ -11,9 +11,12 @@
         max-height: fit-content;
         margin: 15px;
         padding: 10px;
-    
     }
     
+    .NavLogo {
+        margin: 0 auto;
+    }
+
     .Nav {
         display: flex;
         flex-direction: row;
@@ -1616,6 +1619,17 @@
         -o-border-radius: 10px;
     }
     
+    .LogoName {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+    }
+
+    .NavLogo {
+        width: 80px;
+    }
+
     .Logo {
         color: black;
         font-size: 20px;
@@ -1650,7 +1664,7 @@
         justify-content: flex-end;
         align-items: center;
     }
-    
+
     .NavItem {
         display: flex;
         flex-direction: row;
@@ -1671,7 +1685,7 @@
         background-color: rgb(163, 89, 89);
         box-shadow: -3px 4px 0px rgba(0, 0, 0, 0.6);
     }
-    
+
     .Home {
         border: 2px solid rgb(0, 0, 0);
         background-color: rgb(155,155,155);
@@ -1691,12 +1705,12 @@
         -o-border-radius: 10px;
         font-weight: bold;
     }
-    
+
     .Home p {
         font-size: 20px;
         width: 60%;
     }
-    
+
     .Resume {
         border: 2px solid rgb(0, 0, 0);
         background-color: rgb(155,155,155);
@@ -1715,19 +1729,19 @@
         -ms-border-radius: 10px;
         -o-border-radius: 10px;
     }
-    
+
     .ResumeHeader {
         font-size: 40px;
         font-weight: bold;
     }
-    
+
     .SectionHeader {
         font-size: 30px;
         font-weight: bold;
         margin: 20px 0;
         text-align: center;
     }
-    
+
     .SectionCert {
         display: flex;
         flex-direction: column;
@@ -1736,7 +1750,7 @@
         width: 100%;
         margin: 0 auto;
     }
-    
+
     .Certs {
         display: flex;
         flex-direction: row;
@@ -1744,14 +1758,14 @@
         align-items: center;
         flex-wrap: wrap;
     }
-    
+
     .CertHeader {
         font-size: 30px;
         font-weight: bold;
         margin: 20px 0;
         text-align: center;
     }
-    
+
     .Certificates {
         text-align: center;
         display: flex;
@@ -1760,7 +1774,7 @@
         align-items: center;
         width: 100%;
     }
-    
+
     .Certs {
         display: flex;
         flex-direction: row;
@@ -1769,8 +1783,7 @@
         flex-wrap: wrap;
         width: 90%;
     }
-    
-    
+
     .CertCards {
         flex: 1 1 calc(20% - 10px);
         display: flex;
@@ -1793,7 +1806,7 @@
         margin: 15px;
         padding-top: 10px;
     }
-    
+
     .CertCards:hover {
         transform: translateX(5px) translateY(-5px);
         color: black;
@@ -1803,24 +1816,24 @@
         -ms-transform: translateX(5px) translateY(-5px);
         -o-transform: translateX(5px) translateY(-5px);
     }
-    
+
     .CertTitle, .CertIssuer, .CertDate, .Verify{
         margin: 0;
     }
-    
+
     .CertTitle {
         font-size: 15px;
         font-weight: bold;
     }
-    
+
     .CertIssuer {
         font-size: 12px;
     }
-    
+
     .CertDate {
         font-size: 10px;
     }
-    
+
     .Verify {
         font-size: 15px;
         font-weight: bold;
@@ -1837,7 +1850,7 @@
         padding-bottom: 7px;
         bottom: 0;
     }
-    
+
     .ProjectsContainer {
         border: 2px solid rgb(0, 0, 0);
         background-color: rgb(155,155,155);
@@ -1855,12 +1868,12 @@
         -ms-border-radius: 10px;
         -o-border-radius: 10px;
     }
-    
+
     .Projects-Heading {
         font-size: 40px;
         color: rgb(0, 0, 0);
     }
-    
+
     .Projects {
         display: flex;
         flex-direction: row;
@@ -1871,7 +1884,7 @@
         margin-bottom: 30px;
         width: 40%;
     }
-    
+
     .ProjectLinks {
         display: flex;
         flex-direction: row;
@@ -1890,7 +1903,7 @@
         font-size: 20px;
         box-shadow: -5px 7px 0px rgba(0, 0, 0, 0.6);
     }
-    
+
     .XPCardsTitle {
         font-size: 30px;
         font-weight: bold;
@@ -1898,7 +1911,7 @@
         color: rgb(0, 0, 0);
         margin: 30px 0;
     }
-    
+
     .XPCards {
         display: flex;
         flex-direction: row;
@@ -1907,9 +1920,8 @@
         flex-wrap: wrap;
         width: 100%;
         max-height: 600px;
-    
     }
-    
+
     .JobCard {
         display: flex;
         flex: 1 1 calc(20% - 10px);
@@ -1921,9 +1933,8 @@
         color: black;
         max-width: 255px;
         min-height: 80px;
-        max-width: 325px;
-        padding: 10px 10px 10px 10px;
-        padding-top: 15px;
+        min-width: 236px;
+        padding: 15px 10px 10px 10px;
         margin: 15px;
         box-shadow: -5px 7px 0px rgba(0, 0, 0, 0.6);
         border-radius: 10px;
@@ -1932,42 +1943,59 @@
         -ms-border-radius: 10px;
         -o-border-radius: 10px;
     }
-    
+
     .JobCard-1 img {
         width: 154px;
     }
-    
+
     .JobCard-2 img {
         width: 186px;
     }
-    
+
     .JobCard-3 img {
         width: 63px;
     }
-    
+
     .JobCard-4 img {
         width: 200px;
         margin-top: 6px;
     }
-    
+
     .JobCard-5 img {
         width: 150px;
     }
-    
+
     .JobCard-6 img {
         width: 130px;
     }
-    
+
     .JobCard-7 img {
         width: 220px;
         margin: 19px 0 10px 0;
     }
-    
+
     .JobCard-8 img {
         width: 80px;
-    
     }
-    
+
+    .description {
+        text-align: center;
+        width: 90%;
+    }
+
+    .company {
+        font-size: 20px;
+        font-weight: bold;
+        text-align: center;
+    }
+
+    .duties {
+        font-size: 12px;
+        text-align: center;
+        margin: 0 auto;
+        float: left;
+    }
+
     .Contact {
         border: 2px solid rgb(0, 0, 0);
         background-color: rgb(155,155,155);

@@ -17,11 +17,11 @@ export const XPCards = () => {
         <div key={item.id} className={"JobCard-"+(item.id)+" JobCard"}>
           <img src={item.logo} alt={item.company} onClick={() => handleLogoClick(item.id)} />
           {expandedCardId === item.id && (
-            <div>
-              <h2>{item.company}</h2>
+            <div className='description'>
+              <p className='company'>{item.company}</p>
               <p>{item.title}</p>
               <p>{item.date}</p>
-              <ul>
+              <ul className='duties'>
                 {item.duties.map((duty, index) => (
                   <li key={index}>{duty}</li>
                 ))}

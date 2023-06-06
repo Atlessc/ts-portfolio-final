@@ -2,7 +2,12 @@ import "./component.css"
 import { Link } from "react-router-dom"
 import { useState } from "react"
 
+// import Img1 from "../public/Logo1.png"
+import Img1 from "/Vite.png"
+
 export function NavSection() {
+
+    var Img = Img1;
 
     const [nav, setNav] = useState(false)
 
@@ -12,7 +17,11 @@ export function NavSection() {
     }
     return (
         <div className="Nav">
+            <div className="LogoName">
+            <img src={Img} className="NavLogo"/>
             <div className="Logo">Tyler Smith's Resume</div>
+            </div>
+
             <div className="NavButton">
                 {
                 nav ?
