@@ -1,0 +1,72 @@
+[
+      {
+        "id": 1,
+        "title": "Full-Stack Developer Certificate",
+        "date": "2023",
+        "issuer": "LinkedIn Learning",
+        "url": "https://www.linkedin.com/learning/certificates/396ba7a46f90206608ba9f9d41325e8a09e4c5cf4fe277332c430fb2af588f8c"
+      },
+      {
+        "id": 2,
+        "title": "ChatGPT: Supercharge Your Work & Life",
+        "date": "2023",
+        "issuer":"Udemy",
+        "url": "https://www.udemy.com/certificate/UC-22e36ed0-7410-448a-b483-093b90980042/"
+      },
+      {
+        "id": 3,
+        "title": "Master Prompt Engineering with ChatGPT",
+        "date": "2023",
+        "issuer":"Udemy",
+        "url": "https://www.udemy.com/certificate/UC-4c3d053b-c9b8-4c03-86c0-ba00f74d71e8/"
+      },
+      {
+        "id": 4,
+        "title": "NexThink Infinity Fundamentals",
+        "date": "2023",
+        "issuer":"NexThink",
+        "url": "https://learn.nexthink.com/c/071gGxwWTf6ZEONwZSCsdA"
+      },
+      {
+        "id": 5,
+        "title": "Responsive Web Design Certificate",
+        "date": "2023",
+        "issuer":"FreeCodeCamp",
+        "url": "https://freecodecamp.org/certification/atlessc/responsive-web-design"
+      },
+      {
+        "id": 6,
+        "title": "CSS Certificate",
+        "date": "2022",
+        "issuer":"SoloLearn",
+        "url": "https://www.sololearn.com/certificates/CT-OB6H01JP"
+      },
+      {
+        "id": 7,
+        "title": "JavaScript Certificate",
+        "date": "2022",
+        "issuer":"SoloLearn",
+        "url": "https://www.sololearn.com/certificates/CT-X3I5ZPQC"
+      },
+      {
+        "id": 8,
+        "title": "React + Redux Certificate",
+        "date": "2022",
+        "issuer":"SoloLearn",
+        "url": "https://www.sololearn.com/certificates/CT-IX4XMQ0B"
+      },
+      {
+        "id": 9,
+        "title": "Responsive Web Design Certificate",
+        "date": "2022",
+        "issuer":"SoloLearn",
+        "url": "https://www.sololearn.com/certificates/CT-3W6EDC9P"
+      },
+      {
+        "id": 10,
+        "title": "Web Development Fundamentals Certificate",
+        "date": "2022",
+        "issuer":"SoloLearn",
+        "url": "https://www.sololearn.com/certificates/CT-39Z5UOMD"
+      }
+    ]
