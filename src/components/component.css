@@ -79,10 +79,6 @@
         -ms-border-radius: 5px;
         -o-border-radius: 5px;
         box-shadow: -3px 4px 0px rgba(0, 0, 0, 0.6);
-        -webkit-transform: translateY(1px);
-        -moz-transform: translateY(1px);
-        -ms-transform: translateY(1px);
-        -o-transform: translateY(1px);
 }
 
     .Menubutton:active {
