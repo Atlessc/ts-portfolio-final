@@ -62,6 +62,10 @@
     }
 
     .Menubutton {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
         height: 35px;
         width: 35px;
         font-size: 20px;
