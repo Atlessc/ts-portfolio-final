@@ -277,7 +277,7 @@
         display: flex;
         flex: 1 1 calc(20% - 10px);
         flex-direction: column;
-        justify-content: center;
+        justify-content: flex-start;
         align-items: center;
         border: 2px solid rgb(77, 42, 42);
         background-color: rgb(163, 89, 89);
@@ -285,6 +285,7 @@
         max-width: 255px;
         min-height: 80px;
         min-width: 236px;
+        max-height: 200px;
         padding: 15px 10px 10px 10px;
         margin: 15px;
         box-shadow: -5px 7px 0px rgba(0, 0, 0, 0.6);
@@ -293,6 +294,7 @@
         -moz-border-radius: 10px;
         -ms-border-radius: 10px;
         -o-border-radius: 10px;
+        overflow: scroll;
     }
 
     .JobCard-1 img {
@@ -337,7 +339,7 @@
     .company {
         border-top: 2px solid rgb(0, 0, 0);
         padding-top: 10px;
-        font-size: 20px;
+        font-size: 15px;
         font-weight: bold;
         text-align: center;
     }
@@ -1934,7 +1936,7 @@
     .Container {
         display: flex;
         flex-direction: column;
-        max-width: 1200px;
+        max-width: 1300px;
         min-height: 100vh;
         max-height: fit-content;
         margin: 15px;
@@ -1971,7 +1973,8 @@
     }
 
     .NavLogo {
-        width: 80px;
+        width: 40px;
+        padding: 0 10px 0 0;
     }
 
     .Logo {
@@ -2064,7 +2067,7 @@
         justify-content: center;
         align-items: center;
         height: fit-content;
-        padding: 35px 100px;
+        padding: 35px 25px;
         margin: 15px;
         box-shadow: -5px 7px 0px rgba(0, 0, 0, 0.6);
         border-radius: 10px;
@@ -2302,24 +2305,26 @@
 
     .JobCard {
         display: flex;
-        flex: 1 1 calc(20% - 10px);
+        flex: 1 1 20%;
         flex-direction: column;
-        justify-content: center;
+        justify-content: flex-start;
         align-items: center;
         border: 2px solid rgb(77, 42, 42);
         background-color: rgb(163, 89, 89);
         color: black;
-        max-width: 255px;
+        max-width: 200px;
         min-height: 80px;
         min-width: 236px;
+        max-height: 250px;
         padding: 15px 10px 10px 10px;
-        margin: 15px;
+        margin: 5px;
         box-shadow: -5px 7px 0px rgba(0, 0, 0, 0.6);
         border-radius: 10px;
         -webkit-border-radius: 10px;
         -moz-border-radius: 10px;
         -ms-border-radius: 10px;
         -o-border-radius: 10px;
+        overflow: scroll;
     }
 
     .JobCard-1 img {
