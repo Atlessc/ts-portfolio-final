@@ -1,11 +1,4 @@
 import React, { useState, useEffect } from "react";
-import Img1 from "/src/components/Images/Apple.png"
-import Img2 from "/src/components/Images/Consumer cell.png"
-import Img3 from "/src/components/Images/Legacy Health.png"
-import Img4 from "/src/components/Images/Nike.png"
-import Img5 from "/src/components/Images/PPS.png"
-import Img6 from "/src/components/Images/SimpliSafe.png"
-import Img7 from "/src/components/Images/Supra.png"
 import "./component.css"
 import job from "/src/components/jobs.json"
 

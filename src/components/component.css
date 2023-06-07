@@ -1,21 +1,18 @@
-/* mobile ❌ */
-@media screen and (max-width: 480px)  {
+/* mobile  */
+@media screen and (max-width: 500px)  {
     * {
         font-family: Verdana, Geneva, Tahoma, sans-serif;
     }
-    
+
     .Container {
         display: flex;
         flex-direction: column;
-        min-height: 100vh;
+        min-height: 800px;
         max-height: fit-content;
-        margin: 15px;
-        padding: 10px;
+        margin: 10px;
     }
-    
-    .NavLogo {
-        margin: 0 auto;
-    }
+
+    /* Nav Bar */
 
     .Nav {
         display: flex;
@@ -24,9 +21,10 @@
         align-items: center;
         border: 3px solid rgb(0, 0, 0);
         background-color: rgb(155,155,155);
-        padding: 0 2rem;
-        height: 60px;
-        margin-bottom: 20px;
+        padding: 0 5px;
+        min-height: 40px;
+        max-height: fit-content;
+        margin: 5px 5px 10px 5px;
         position: sticky;
         top: 0;
         z-index: 10;
@@ -37,20 +35,32 @@
         -ms-border-radius: 10px;
         -o-border-radius: 10px;
     }
-    
-    .Logo {
-        color: black;
-        font-size: 20px;
-        font-weight: bold;
-    }
-    
-    .NavButton {
+
+    .LogoName {
         display: flex;
         flex-direction: row;
-        justify-content: flex-end;
+        justify-content: flex-start;
         align-items: center;
     }
-    
+
+    .NavLogo {
+        width: 40px;
+        margin: 10px
+    }
+
+    .Logo {
+        color: black;
+        font-size: 18px;
+        font-weight: bold;
+    }
+
+    .NavButton {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+
     .Menubutton {
         height: 35px;
         width: 35px;
@@ -65,35 +75,118 @@
         -o-border-radius: 5px;
         box-shadow: -3px 4px 0px rgba(0, 0, 0, 0.6);
     }
-    
+
+    .Menubutton:active {
+        box-shadow: none;
+        animation: ClickAnimMenu 200ms ease-in;
+        -webkit-animation: ClickAnimMenu 200ms ease-in;
+}
+
+@keyframes ClickAnimMenu {
+    0% {
+        box-shadow: -3px 4px 0px rgba(0, 0, 0, 0.6);
+        transform: translateX(0) translateY(0);
+        -webkit-transform: translateX(0) translateY(0);
+        -moz-transform: translateX(0) translateY(0);
+        -ms-transform: translateX(0) translateY(0);
+        -o-transform: translateX(0) translateY(0);
+}
+    50% {
+        box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.6);
+        transform: translateX(-4px) translateY(3px);
+        -webkit-transform: translateX(-4px) translateY(3px);
+        -moz-transform: translateX(-4px) translateY(3px);
+        -ms-transform: translateX(-4px) translateY(3px);
+        -o-transform: translateX(-4px) translateY(3px);
+}
+    100% {
+        box-shadow: -3px 4px 0px rgba(0, 0, 0, 0.6);
+        transform: translateX(0) translateY(0);
+        -webkit-transform: translateX(0) translateY(0);
+        -moz-transform: translateX(0) translateY(0);
+        -ms-transform: translateX(0) translateY(0);
+        -o-transform: translateX(0) translateY(0);
+    }
+}
+
     .NavLinks {
         display: flex;
-        flex-direction: row;
-        justify-content: flex-end;
+        flex-direction: column;
+        justify-content: flex-start;
         align-items: center;
+        position: absolute;
+        backdrop-filter: blur(5px);
+        -webkit-backdrop-filter: blur(5px);
+        background-color: rgba(0, 0, 0, 0.5);
+        width: 100%;
+        height: 80vh;
+        top: 100%;
+        left: 0;
     }
-    
+
     .NavItem {
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         justify-content: center;
         align-items: center;
         margin: 0 1rem;
         cursor: pointer;
-        width: 70px;
+        width: 100px;
         height: auto;
-        margin: 5px;
+        margin: 15px;
         padding: 10px;
         border: 2px solid rgb(0, 0, 0);
         border-radius: 10px;
         text-decoration: none;
         color: rgb(0, 0, 0);
         font-weight: bold;
-        font-size: 15px;
+        font-size: 18px;
         background-color: rgb(163, 89, 89);
         box-shadow: -3px 4px 0px rgba(0, 0, 0, 0.6);
     }
-    
+
+    .NavItem:active {
+        animation: ClickAnimNav 200ms ease-in;
+        -webkit-animation: ClickAnimNav 200ms ease-in;
+}
+
+@keyframes ClickAnimNav {
+    0% {
+        box-shadow: -3px 4px 0px rgba(0, 0, 0, 0.6);
+        transform: translateX(0) translateY(0);
+        -webkit-transform: translateX(0) translateY(0);
+        -moz-transform: translateX(0) translateY(0);
+        -ms-transform: translateX(0) translateY(0);
+        -o-transform: translateX(0) translateY(0);
+}
+    50% {
+        box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.6);
+        transform: translateX(-4px) translateY(3px);
+        -webkit-transform: translateX(-4px) translateY(3px);
+        -moz-transform: translateX(-4px) translateY(3px);
+        -ms-transform: translateX(-4px) translateY(3px);
+        -o-transform: translateX(-4px) translateY(3px);
+}
+    100% {
+        box-shadow: -3px 4px 0px rgba(0, 0, 0, 0.6);
+        transform: translateX(0) translateY(0);
+        -webkit-transform: translateX(0) translateY(0);
+        -moz-transform: translateX(0) translateY(0);
+        -ms-transform: translateX(0) translateY(0);
+        -o-transform: translateX(0) translateY(0);
+    }
+}
+
+    /* Home Page */
+
+    .HomeContent {
+    display: flex;
+    flex-direction: column;
+    min-height: 100px;
+    max-height: fit-content;
+    margin: 10px;
+    }
+
     .Home {
         border: 2px solid rgb(0, 0, 0);
         background-color: rgb(155,155,155);
@@ -102,9 +195,8 @@
         flex-direction: column;
         justify-content: flex-start;
         align-items: center;
-        min-height: 400px;
-        padding: 35px 100px;
-        margin: 15px;
+        min-height: 300px;
+        padding: 20px 20px;
         box-shadow: -5px 7px 0px rgba(0, 0, 0, 0.6);
         border-radius: 10px;
         -webkit-border-radius: 10px;
@@ -113,12 +205,18 @@
         -o-border-radius: 10px;
         font-weight: bold;
     }
-    
-    .Home p {
-        font-size: 20px;
-        width: 60%;
+
+    .Home h1 {
+        font-size: 25px;
     }
-    
+
+    .Home p {
+        font-size: 15px;
+        width: 80%;
+    }
+
+    /* Resume */
+
     .Resume {
         border: 2px solid rgb(0, 0, 0);
         background-color: rgb(155,155,155);
@@ -128,7 +226,7 @@
         justify-content: center;
         align-items: center;
         height: fit-content;
-        padding: 35px 100px;
+        padding: 15px 25px;
         margin: 15px;
         box-shadow: -5px 7px 0px rgba(0, 0, 0, 0.6);
         border-radius: 10px;
@@ -137,43 +235,138 @@
         -ms-border-radius: 10px;
         -o-border-radius: 10px;
     }
-    
+
     .ResumeHeader {
-        font-size: 40px;
+        font-size: 25px;
         font-weight: bold;
+        margin-bottom: 15px;
+        text-align: center;
     }
-    
+
     .SectionHeader {
-        font-size: 30px;
+        font-size: 20px;
         font-weight: bold;
         margin: 20px 0;
         text-align: center;
     }
-    
+
+    .XPCardsTitle {
+        font-size: 20px;
+        font-weight: bold;
+        text-align: center;
+        color: rgb(0, 0, 0);
+        margin: 30px 0;
+    }
+
+    .XPCards {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: flex-start;
+        flex-wrap: wrap;
+        width: 100%;
+        max-height: fit-content;
+    }
+
+    .JobCard {
+        display: flex;
+        flex: 1 1 calc(20% - 10px);
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border: 2px solid rgb(77, 42, 42);
+        background-color: rgb(163, 89, 89);
+        color: black;
+        max-width: 255px;
+        min-height: 80px;
+        min-width: 236px;
+        padding: 15px 10px 10px 10px;
+        margin: 15px;
+        box-shadow: -5px 7px 0px rgba(0, 0, 0, 0.6);
+        border-radius: 10px;
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        -ms-border-radius: 10px;
+        -o-border-radius: 10px;
+    }
+
+    .JobCard-1 img {
+        width: 154px;
+    }
+
+    .JobCard-2 img {
+        width: 186px;
+    }
+
+    .JobCard-3 img {
+        width: 63px;
+    }
+
+    .JobCard-4 img {
+        width: 200px;
+        margin-top: 6px;
+    }
+
+    .JobCard-5 img {
+        width: 150px;
+    }
+
+    .JobCard-6 img {
+        width: 130px;
+    }
+
+    .JobCard-7 img {
+        width: 220px;
+        margin: 19px 0 10px 0;
+    }
+
+    .JobCard-8 img {
+        width: 80px;
+    }
+
+    .description {
+        text-align: center;
+        width: 90%;
+    }
+
+    .company {
+        border-top: 2px solid rgb(0, 0, 0);
+        padding-top: 10px;
+        font-size: 20px;
+        font-weight: bold;
+        text-align: center;
+    }
+
+    .duties {
+        font-size: 12px;
+        text-align: center;
+        margin: 0 auto;
+        float: left;
+    }
+
     .SectionCert {
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
         width: 100%;
-        margin: 0 auto;
     }
-    
+
     .Certs {
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         justify-content: center;
         align-items: center;
         flex-wrap: wrap;
     }
-    
+
     .CertHeader {
-        font-size: 30px;
+        font-size: 20px;
         font-weight: bold;
         margin: 20px 0;
         text-align: center;
     }
-    
+
     .Certificates {
         text-align: center;
         display: flex;
@@ -182,17 +375,15 @@
         align-items: center;
         width: 100%;
     }
-    
+
     .Certs {
         display: flex;
-        flex-direction: row;
-        justify-content: space-between;
+        flex-direction: column;
+        justify-content: center;
         align-items: center;
         flex-wrap: wrap;
-        width: 90%;
     }
-    
-    
+
     .CertCards {
         flex: 1 1 calc(20% - 10px);
         display: flex;
@@ -210,43 +401,34 @@
         color: black;
         font-weight: bold;
         text-align: center;
-        width: 170px;
-        height: 140px;
-        margin: 15px;
+        width: 200px;
+        height: 110px;
+        margin: 15px 0;
         padding-top: 10px;
     }
-    
-    .CertCards:hover {
-        transform: translateX(5px) translateY(-5px);
-        color: black;
-        box-shadow: -5px 5px 0px rgba(0, 0, 0, 0.6);
-        -webkit-transform: translateX(5px) translateY(-5px);
-        -moz-transform: translateX(5px) translateY(-5px);
-        -ms-transform: translateX(5px) translateY(-5px);
-        -o-transform: translateX(5px) translateY(-5px);
-    }
-    
+
     .CertTitle, .CertIssuer, .CertDate, .Verify{
         margin: 0;
     }
-    
+
     .CertTitle {
-        font-size: 15px;
+        width: 95%;
+        font-size: 13px;
         font-weight: bold;
     }
-    
+
     .CertIssuer {
         font-size: 12px;
     }
-    
+
     .CertDate {
         font-size: 10px;
     }
-    
+
     .Verify {
-        font-size: 15px;
+        font-size: 10px;
         font-weight: bold;
-        border-top: 4px solid rgb(255, 255, 255);
+        border-top: 2px solid rgb(255, 255, 255);
         border-radius: 0 0 8px 8px;
         width: 100%;
         background-color: rgb(0, 0, 0);
@@ -259,7 +441,9 @@
         padding-bottom: 7px;
         bottom: 0;
     }
-    
+
+    /* Projects */
+
     .ProjectsContainer {
         border: 2px solid rgb(0, 0, 0);
         background-color: rgb(155,155,155);
@@ -269,7 +453,7 @@
         align-items: center;
         height: fit-content;
         padding: 10px;
-        margin: 15px;
+        margin: 10px;
         box-shadow: -5px 7px 0px rgba(0, 0, 0, 0.6);
         border-radius: 10px;
         -webkit-border-radius: 10px;
@@ -277,12 +461,13 @@
         -ms-border-radius: 10px;
         -o-border-radius: 10px;
     }
-    
+
     .Projects-Heading {
-        font-size: 40px;
+        text-align: center;
+        font-size: 30px;
         color: rgb(0, 0, 0);
     }
-    
+
     .Projects {
         display: flex;
         flex-direction: row;
@@ -291,17 +476,18 @@
         justify-content: center;
         align-items: center;
         margin-bottom: 30px;
-        width: 40%;
+        width: 100%;
     }
-    
+
     .ProjectLinks {
+        text-align: center;
         display: flex;
         flex-direction: row;
         justify-content: center;
         align-items: center;
         border: 2px solid black;
         background-color: rgb(163, 89, 89);
-        width: 150px;
+        width: 100px;
         height: 30px;
         margin: 7px;
         padding: 10px;
@@ -309,87 +495,12 @@
         color: rgb(0, 0, 0);
         font-weight: bold;
         border-radius: 10px;
-        font-size: 20px;
+        font-size: 15px;
         box-shadow: -5px 7px 0px rgba(0, 0, 0, 0.6);
     }
-    
-    .XPCardsTitle {
-        font-size: 30px;
-        font-weight: bold;
-        text-align: center;
-        color: rgb(0, 0, 0);
-        margin: 30px 0;
-    }
-    
-    .XPCards {
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        align-items: flex-start;
-        flex-wrap: wrap;
-        width: 100%;
-        max-height: 600px;
-    
-    }
-    
-    .JobCard {
-        display: flex;
-        flex: 1 1 calc(20% - 10px);
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        border: 2px solid rgb(77, 42, 42);
-        background-color: rgb(163, 89, 89);
-        color: black;
-        max-width: 255px;
-        min-height: 80px;
-        max-width: 325px;
-        padding: 10px 10px 10px 10px;
-        padding-top: 15px;
-        margin: 15px;
-        box-shadow: -5px 7px 0px rgba(0, 0, 0, 0.6);
-        border-radius: 10px;
-        -webkit-border-radius: 10px;
-        -moz-border-radius: 10px;
-        -ms-border-radius: 10px;
-        -o-border-radius: 10px;
-    }
-    
-    .JobCard-1 img {
-        width: 154px;
-    }
-    
-    .JobCard-2 img {
-        width: 186px;
-    }
-    
-    .JobCard-3 img {
-        width: 63px;
-    }
-    
-    .JobCard-4 img {
-        width: 200px;
-        margin-top: 6px;
-    }
-    
-    .JobCard-5 img {
-        width: 150px;
-    }
-    
-    .JobCard-6 img {
-        width: 130px;
-    }
-    
-    .JobCard-7 img {
-        width: 220px;
-        margin: 19px 0 10px 0;
-    }
-    
-    .JobCard-8 img {
-        width: 80px;
-    
-    }
-    
+
+    /* Contact Me Page */
+
     .Contact {
         border: 2px solid rgb(0, 0, 0);
         background-color: rgb(155,155,155);
@@ -399,7 +510,7 @@
         justify-content: center;
         align-items: center;
         height: fit-content;
-        padding: 35px 100px;
+        padding: 15px 15px;
         margin: 15px;
         box-shadow: -5px 7px 0px rgba(0, 0, 0, 0.6);
         border-radius: 10px;
@@ -408,29 +519,29 @@
         -ms-border-radius: 10px;
         -o-border-radius: 10px;
     }
-    
+
     .Contact-Header {
-        font-size: 50px;
+        font-size: 25px;
         font-weight: bold;
         text-align: center;
     }
-    
+
     .Contact form {
         display: flex;
         flex-direction: column;
         justify-content: center;
     }
-    
+
     .Contact-Name {
         display: flex;
         flex-direction: row;
         align-items: center;
         width: 100%;
         margin: 15px 0;
-        font-size: 20px;
+        font-size: 15px;
         font-weight: bold;
     }
-    
+
     .Contact-Name input {
         border: 2px solid rgb(0, 0, 0);
         border-radius: 10px;
@@ -440,19 +551,21 @@
         -o-border-radius: 10px;
         padding: 5px;
         margin-left: 10px;
-    
+        width: 100%;
+        font-size: 12px;
+        font-family: monospace;
     }
-    
+
     .Contact-Email {
         display: flex;
         flex-direction: row;
         align-items: center;
         width: 100%;
         margin: 15px 0;
-        font-size: 20px;
+        font-size: 15px;
         font-weight: bold;
     }
-    
+
     .Contact-Email input {
         border: 2px solid rgb(0, 0, 0);
         border-radius: 10px;
@@ -461,22 +574,24 @@
         -ms-border-radius: 10px;
         -o-border-radius: 10px;
         padding: 5px;
+        width: 100%;
         margin-left: 10px;
-    
+        font-size: 12px;
+        font-family: monospace;
     }
-    
+
     .Contact-Message {
         display: flex;
         flex-direction: column;
         align-items: center;
         width: 100%;
         margin: 15px 0;
-        font-size: 20px;
+        font-size: 15px;
         font-weight: bold;
     }
-    
+
     .Contact-Message textarea {
-        width: 450px;
+        width: 250px;
         height: 100px;
         border: 2px solid rgb(0, 0, 0);
         border-radius: 10px;
@@ -485,12 +600,13 @@
         -ms-border-radius: 10px;
         -o-border-radius: 10px;
         padding: 10px;
+        font-size: 12px;
         font-family: monospace;
     }
-    
+
     .Conatct-SubmitBtn {
-        width: 100px;
-        height: 50px;
+        width: 160px;
+        height: 40px;
         border: 2px solid rgb(0, 0, 0);
         border-radius: 10px;
         -webkit-border-radius: 10px;
@@ -503,9 +619,10 @@
         background-color: rgb(163, 89, 89);
         color: black;
         box-shadow: -5px 7px 0px rgba(0, 0, 0, 0.6);
-    
     }
-    
+
+    /* Footer */
+
     .Footer {
         display: flex;
         flex-direction: row;
@@ -516,8 +633,9 @@
         color: black;
         display: flex;
         flex-direction: column;
-        margin: 15px;
-        padding: 10px;
+        margin: 10px;
+        padding: 10px 25px;
+        text-align: center;
         box-shadow: -5px 7px 0px rgba(0, 0, 0, 0.6);
         border-radius: 10px;
         -webkit-border-radius: 10px;
@@ -525,25 +643,32 @@
         -ms-border-radius: 10px;
         -o-border-radius: 10px;
         font-weight: bold;
+        font-size: 15px;
     }
 }
 
 /* tablets ❌*/
-@media screen and (max-width: 768px)  {
+@media screen and (min-width: 501px) and (max-width: 768px)  {
     * {
         font-family: Verdana, Geneva, Tahoma, sans-serif;
     }
-    
+
     .Container {
         display: flex;
         flex-direction: column;
-        min-height: 100vh;
+        min-height: 100px;
         max-height: fit-content;
-        margin: 15px;
-        padding: 10px;
-    
+        margin: 10px;
     }
-    
+
+    .HomeContent {
+        display: flex;
+        flex-direction: column;
+        min-height: 100px;
+        max-height: fit-content;
+        margin: 10px;
+    }
+
     .Nav {
         display: flex;
         flex-direction: row;
@@ -551,9 +676,10 @@
         align-items: center;
         border: 3px solid rgb(0, 0, 0);
         background-color: rgb(155,155,155);
-        padding: 0 2rem;
-        height: 60px;
-        margin-bottom: 20px;
+        padding: 0 5px;
+        min-height: 40px;
+        max-height: fit-content;
+        margin: 5px 5px 10px 5px;
         position: sticky;
         top: 0;
         z-index: 10;
@@ -564,20 +690,32 @@
         -ms-border-radius: 10px;
         -o-border-radius: 10px;
     }
-    
-    .Logo {
-        color: black;
-        font-size: 20px;
-        font-weight: bold;
-    }
-    
-    .NavButton {
+
+    .LogoName {
         display: flex;
         flex-direction: row;
-        justify-content: flex-end;
+        justify-content: flex-start;
         align-items: center;
     }
-    
+
+    .NavLogo {
+        width: 40px;
+        margin: 10px
+    }
+
+    .Logo {
+        color: black;
+        font-size: 18px;
+        font-weight: bold;
+    }
+
+    .NavButton {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+
     .Menubutton {
         height: 35px;
         width: 35px;
@@ -592,35 +730,108 @@
         -o-border-radius: 5px;
         box-shadow: -3px 4px 0px rgba(0, 0, 0, 0.6);
     }
-    
+
+    .Menubutton:active {
+        box-shadow: none;
+        animation: ClickAnimMenu 200ms ease-in;
+        -webkit-animation: ClickAnimMenu 200ms ease-in;
+}
+
+@keyframes ClickAnimMenu {
+    0% {
+        box-shadow: -3px 4px 0px rgba(0, 0, 0, 0.6);
+        transform: translateX(0) translateY(0);
+        -webkit-transform: translateX(0) translateY(0);
+        -moz-transform: translateX(0) translateY(0);
+        -ms-transform: translateX(0) translateY(0);
+        -o-transform: translateX(0) translateY(0);
+}
+    50% {
+        box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.6);
+        transform: translateX(-4px) translateY(3px);
+        -webkit-transform: translateX(-4px) translateY(3px);
+        -moz-transform: translateX(-4px) translateY(3px);
+        -ms-transform: translateX(-4px) translateY(3px);
+        -o-transform: translateX(-4px) translateY(3px);
+}
+    100% {
+        box-shadow: -3px 4px 0px rgba(0, 0, 0, 0.6);
+        transform: translateX(0) translateY(0);
+        -webkit-transform: translateX(0) translateY(0);
+        -moz-transform: translateX(0) translateY(0);
+        -ms-transform: translateX(0) translateY(0);
+        -o-transform: translateX(0) translateY(0);
+    }
+}
+
     .NavLinks {
         display: flex;
-        flex-direction: row;
-        justify-content: flex-end;
+        flex-direction: column;
+        justify-content: center;
         align-items: center;
+        position: absolute;
+        backdrop-filter: blur(5px);
+        -webkit-backdrop-filter: blur(5px);
+        background-color: rgba(0, 0, 0, 0.5);
+        width: 100%;
+        height: 80vh;
+        top: 100%;
+        left: 0;
     }
-    
+
     .NavItem {
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         justify-content: center;
         align-items: center;
         margin: 0 1rem;
         cursor: pointer;
-        width: 70px;
+        width: 100px;
         height: auto;
-        margin: 5px;
+        margin: 15px;
         padding: 10px;
         border: 2px solid rgb(0, 0, 0);
         border-radius: 10px;
         text-decoration: none;
         color: rgb(0, 0, 0);
         font-weight: bold;
-        font-size: 15px;
+        font-size: 18px;
         background-color: rgb(163, 89, 89);
         box-shadow: -3px 4px 0px rgba(0, 0, 0, 0.6);
     }
-    
+
+    .NavItem:active {
+        animation: ClickAnimNav 200ms ease-in;
+        -webkit-animation: ClickAnimNav 200ms ease-in;
+}
+
+@keyframes ClickAnimNav {
+    0% {
+        box-shadow: -3px 4px 0px rgba(0, 0, 0, 0.6);
+        transform: translateX(0) translateY(0);
+        -webkit-transform: translateX(0) translateY(0);
+        -moz-transform: translateX(0) translateY(0);
+        -ms-transform: translateX(0) translateY(0);
+        -o-transform: translateX(0) translateY(0);
+}
+    50% {
+        box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.6);
+        transform: translateX(-4px) translateY(3px);
+        -webkit-transform: translateX(-4px) translateY(3px);
+        -moz-transform: translateX(-4px) translateY(3px);
+        -ms-transform: translateX(-4px) translateY(3px);
+        -o-transform: translateX(-4px) translateY(3px);
+}
+    100% {
+        box-shadow: -3px 4px 0px rgba(0, 0, 0, 0.6);
+        transform: translateX(0) translateY(0);
+        -webkit-transform: translateX(0) translateY(0);
+        -moz-transform: translateX(0) translateY(0);
+        -ms-transform: translateX(0) translateY(0);
+        -o-transform: translateX(0) translateY(0);
+    }
+}
+
     .Home {
         border: 2px solid rgb(0, 0, 0);
         background-color: rgb(155,155,155);
@@ -629,9 +840,8 @@
         flex-direction: column;
         justify-content: flex-start;
         align-items: center;
-        min-height: 400px;
-        padding: 35px 100px;
-        margin: 15px;
+        min-height: 300px;
+        padding: 20px 20px;
         box-shadow: -5px 7px 0px rgba(0, 0, 0, 0.6);
         border-radius: 10px;
         -webkit-border-radius: 10px;
@@ -640,12 +850,16 @@
         -o-border-radius: 10px;
         font-weight: bold;
     }
-    
-    .Home p {
-        font-size: 20px;
-        width: 60%;
+
+    .Home h1 {
+        font-size: 25px;
     }
-    
+
+    .Home p {
+        font-size: 15px;
+        width: 80%;
+    }
+
     .Resume {
         border: 2px solid rgb(0, 0, 0);
         background-color: rgb(155,155,155);
@@ -655,7 +869,7 @@
         justify-content: center;
         align-items: center;
         height: fit-content;
-        padding: 35px 100px;
+        padding: 15px 25px;
         margin: 15px;
         box-shadow: -5px 7px 0px rgba(0, 0, 0, 0.6);
         border-radius: 10px;
@@ -664,43 +878,136 @@
         -ms-border-radius: 10px;
         -o-border-radius: 10px;
     }
-    
+
     .ResumeHeader {
-        font-size: 40px;
+        font-size: 25px;
         font-weight: bold;
+        margin-bottom: 15px;
+        text-align: center;
     }
-    
+
     .SectionHeader {
-        font-size: 30px;
+        font-size: 20px;
         font-weight: bold;
         margin: 20px 0;
         text-align: center;
     }
-    
+
+    .XPCardsTitle {
+        font-size: 20px;
+        font-weight: bold;
+        text-align: center;
+        color: rgb(0, 0, 0);
+        margin: 30px 0;
+    }
+
+    .XPCards {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: flex-start;
+        flex-wrap: wrap;
+        width: 100%;
+        max-height: fit-content;
+    }
+
+    .JobCard {
+        display: flex;
+        flex: 1 1 calc(20% - 10px);
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border: 2px solid rgb(77, 42, 42);
+        background-color: rgb(163, 89, 89);
+        color: black;
+        max-width: 255px;
+        min-height: 80px;
+        min-width: 236px;
+        padding: 15px 10px 10px 10px;
+        margin: 15px;
+        box-shadow: -5px 7px 0px rgba(0, 0, 0, 0.6);
+        border-radius: 10px;
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        -ms-border-radius: 10px;
+        -o-border-radius: 10px;
+    }
+
+    .JobCard-1 img {
+        width: 154px;
+    }
+
+    .JobCard-2 img {
+        width: 186px;
+    }
+
+    .JobCard-3 img {
+        width: 63px;
+    }
+
+    .JobCard-4 img {
+        width: 200px;
+        margin-top: 6px;
+    }
+
+    .JobCard-5 img {
+        width: 150px;
+    }
+
+    .JobCard-6 img {
+        width: 130px;
+    }
+
+    .JobCard-7 img {
+        width: 220px;
+        margin: 19px 0 10px 0;
+    }
+
+    .JobCard-8 img {
+        width: 80px;
+    }
+
+    .description {
+        text-align: center;
+        width: 90%;
+    }
+
+    .company {
+        font-size: 20px;
+        font-weight: bold;
+        text-align: center;
+    }
+
+    .duties {
+        font-size: 12px;
+        text-align: center;
+        margin: 0 auto;
+        float: left;
+    }
+
     .SectionCert {
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
         width: 100%;
-        margin: 0 auto;
     }
-    
+
     .Certs {
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         justify-content: center;
         align-items: center;
         flex-wrap: wrap;
     }
-    
+
     .CertHeader {
-        font-size: 30px;
+        font-size: 20px;
         font-weight: bold;
         margin: 20px 0;
         text-align: center;
     }
-    
+
     .Certificates {
         text-align: center;
         display: flex;
@@ -709,17 +1016,15 @@
         align-items: center;
         width: 100%;
     }
-    
+
     .Certs {
         display: flex;
-        flex-direction: row;
-        justify-content: space-between;
+        flex-direction: column;
+        justify-content: center;
         align-items: center;
         flex-wrap: wrap;
-        width: 90%;
     }
-    
-    
+
     .CertCards {
         flex: 1 1 calc(20% - 10px);
         display: flex;
@@ -737,39 +1042,29 @@
         color: black;
         font-weight: bold;
         text-align: center;
-        width: 170px;
-        height: 140px;
-        margin: 15px;
+        width: 200px;
+        height: 110px;
+        margin: 15px 0;
         padding-top: 10px;
     }
-    
-    .CertCards:hover {
-        transform: translateX(5px) translateY(-5px);
-        color: black;
-        box-shadow: -5px 5px 0px rgba(0, 0, 0, 0.6);
-        -webkit-transform: translateX(5px) translateY(-5px);
-        -moz-transform: translateX(5px) translateY(-5px);
-        -ms-transform: translateX(5px) translateY(-5px);
-        -o-transform: translateX(5px) translateY(-5px);
-    }
-    
+
     .CertTitle, .CertIssuer, .CertDate, .Verify{
         margin: 0;
     }
-    
+
     .CertTitle {
-        font-size: 15px;
+        font-size: 12px;
         font-weight: bold;
     }
-    
+
     .CertIssuer {
-        font-size: 12px;
+        font-size: 10px;
     }
-    
+
     .CertDate {
         font-size: 10px;
     }
-    
+
     .Verify {
         font-size: 15px;
         font-weight: bold;
@@ -786,7 +1081,7 @@
         padding-bottom: 7px;
         bottom: 0;
     }
-    
+
     .ProjectsContainer {
         border: 2px solid rgb(0, 0, 0);
         background-color: rgb(155,155,155);
@@ -804,12 +1099,12 @@
         -ms-border-radius: 10px;
         -o-border-radius: 10px;
     }
-    
+
     .Projects-Heading {
         font-size: 40px;
         color: rgb(0, 0, 0);
     }
-    
+
     .Projects {
         display: flex;
         flex-direction: row;
@@ -820,7 +1115,7 @@
         margin-bottom: 30px;
         width: 40%;
     }
-    
+
     .ProjectLinks {
         display: flex;
         flex-direction: row;
@@ -839,84 +1134,7 @@
         font-size: 20px;
         box-shadow: -5px 7px 0px rgba(0, 0, 0, 0.6);
     }
-    
-    .XPCardsTitle {
-        font-size: 30px;
-        font-weight: bold;
-        text-align: center;
-        color: rgb(0, 0, 0);
-        margin: 30px 0;
-    }
-    
-    .XPCards {
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        align-items: flex-start;
-        flex-wrap: wrap;
-        width: 100%;
-        max-height: 600px;
-    
-    }
-    
-    .JobCard {
-        display: flex;
-        flex: 1 1 calc(20% - 10px);
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        border: 2px solid rgb(77, 42, 42);
-        background-color: rgb(163, 89, 89);
-        color: black;
-        max-width: 255px;
-        min-height: 80px;
-        max-width: 325px;
-        padding: 10px 10px 10px 10px;
-        padding-top: 15px;
-        margin: 15px;
-        box-shadow: -5px 7px 0px rgba(0, 0, 0, 0.6);
-        border-radius: 10px;
-        -webkit-border-radius: 10px;
-        -moz-border-radius: 10px;
-        -ms-border-radius: 10px;
-        -o-border-radius: 10px;
-    }
-    
-    .JobCard-1 img {
-        width: 154px;
-    }
-    
-    .JobCard-2 img {
-        width: 186px;
-    }
-    
-    .JobCard-3 img {
-        width: 63px;
-    }
-    
-    .JobCard-4 img {
-        width: 200px;
-        margin-top: 6px;
-    }
-    
-    .JobCard-5 img {
-        width: 150px;
-    }
-    
-    .JobCard-6 img {
-        width: 130px;
-    }
-    
-    .JobCard-7 img {
-        width: 220px;
-        margin: 19px 0 10px 0;
-    }
-    
-    .JobCard-8 img {
-        width: 80px;
-    
-    }
-    
+
     .Contact {
         border: 2px solid rgb(0, 0, 0);
         background-color: rgb(155,155,155);
@@ -926,7 +1144,7 @@
         justify-content: center;
         align-items: center;
         height: fit-content;
-        padding: 35px 100px;
+        padding: 15px 15px;
         margin: 15px;
         box-shadow: -5px 7px 0px rgba(0, 0, 0, 0.6);
         border-radius: 10px;
@@ -935,29 +1153,29 @@
         -ms-border-radius: 10px;
         -o-border-radius: 10px;
     }
-    
+
     .Contact-Header {
-        font-size: 50px;
+        font-size: 25px;
         font-weight: bold;
         text-align: center;
     }
-    
+
     .Contact form {
         display: flex;
         flex-direction: column;
         justify-content: center;
     }
-    
+
     .Contact-Name {
         display: flex;
         flex-direction: row;
         align-items: center;
         width: 100%;
         margin: 15px 0;
-        font-size: 20px;
+        font-size: 15px;
         font-weight: bold;
     }
-    
+
     .Contact-Name input {
         border: 2px solid rgb(0, 0, 0);
         border-radius: 10px;
@@ -967,19 +1185,21 @@
         -o-border-radius: 10px;
         padding: 5px;
         margin-left: 10px;
-    
+        width: 100%;
+        font-size: 12px;
+        font-family: monospace;
     }
-    
+
     .Contact-Email {
         display: flex;
         flex-direction: row;
         align-items: center;
         width: 100%;
         margin: 15px 0;
-        font-size: 20px;
+        font-size: 15px;
         font-weight: bold;
     }
-    
+
     .Contact-Email input {
         border: 2px solid rgb(0, 0, 0);
         border-radius: 10px;
@@ -988,22 +1208,24 @@
         -ms-border-radius: 10px;
         -o-border-radius: 10px;
         padding: 5px;
+        width: 100%;
         margin-left: 10px;
-    
+        font-size: 12px;
+        font-family: monospace;
     }
-    
+
     .Contact-Message {
         display: flex;
         flex-direction: column;
         align-items: center;
         width: 100%;
         margin: 15px 0;
-        font-size: 20px;
+        font-size: 15px;
         font-weight: bold;
     }
-    
+
     .Contact-Message textarea {
-        width: 450px;
+        width: 250px;
         height: 100px;
         border: 2px solid rgb(0, 0, 0);
         border-radius: 10px;
@@ -1012,12 +1234,13 @@
         -ms-border-radius: 10px;
         -o-border-radius: 10px;
         padding: 10px;
+        font-size: 12px;
         font-family: monospace;
     }
-    
+
     .Conatct-SubmitBtn {
-        width: 100px;
-        height: 50px;
+        width: 160px;
+        height: 40px;
         border: 2px solid rgb(0, 0, 0);
         border-radius: 10px;
         -webkit-border-radius: 10px;
@@ -1030,9 +1253,8 @@
         background-color: rgb(163, 89, 89);
         color: black;
         box-shadow: -5px 7px 0px rgba(0, 0, 0, 0.6);
-    
     }
-    
+
     .Footer {
         display: flex;
         flex-direction: row;
@@ -1043,8 +1265,9 @@
         color: black;
         display: flex;
         flex-direction: column;
-        margin: 15px;
+        margin: 10px;
         padding: 10px;
+        text-align: center;
         box-shadow: -5px 7px 0px rgba(0, 0, 0, 0.6);
         border-radius: 10px;
         -webkit-border-radius: 10px;
@@ -1052,25 +1275,32 @@
         -ms-border-radius: 10px;
         -o-border-radius: 10px;
         font-weight: bold;
+        font-size: 10px;
     }
 }
 
 /* small computers ❌*/
-@media screen and (max-width: 1024px)  {
+@media screen and (min-width: 769px) and (max-width: 1024px)  {
     * {
         font-family: Verdana, Geneva, Tahoma, sans-serif;
     }
-    
+
     .Container {
         display: flex;
         flex-direction: column;
-        min-height: 100vh;
+        min-height: 100px;
         max-height: fit-content;
-        margin: 15px;
-        padding: 10px;
-    
+        margin: 10px;
     }
-    
+
+    .HomeContent {
+        display: flex;
+        flex-direction: column;
+        min-height: 100px;
+        max-height: fit-content;
+        margin: 10px;
+    }
+
     .Nav {
         display: flex;
         flex-direction: row;
@@ -1078,9 +1308,10 @@
         align-items: center;
         border: 3px solid rgb(0, 0, 0);
         background-color: rgb(155,155,155);
-        padding: 0 2rem;
-        height: 60px;
-        margin-bottom: 20px;
+        padding: 0 5px;
+        min-height: 40px;
+        max-height: fit-content;
+        margin: 5px 5px 10px 5px;
         position: sticky;
         top: 0;
         z-index: 10;
@@ -1091,20 +1322,32 @@
         -ms-border-radius: 10px;
         -o-border-radius: 10px;
     }
-    
-    .Logo {
-        color: black;
-        font-size: 20px;
-        font-weight: bold;
-    }
-    
-    .NavButton {
+
+    .LogoName {
         display: flex;
         flex-direction: row;
-        justify-content: flex-end;
+        justify-content: flex-start;
         align-items: center;
     }
-    
+
+    .NavLogo {
+        width: 40px;
+        margin: 10px
+    }
+
+    .Logo {
+        color: black;
+        font-size: 18px;
+        font-weight: bold;
+    }
+
+    .NavButton {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+
     .Menubutton {
         height: 35px;
         width: 35px;
@@ -1119,35 +1362,108 @@
         -o-border-radius: 5px;
         box-shadow: -3px 4px 0px rgba(0, 0, 0, 0.6);
     }
-    
+
+    .Menubutton:active {
+        box-shadow: none;
+        animation: ClickAnimMenu 200ms ease-in;
+        -webkit-animation: ClickAnimMenu 200ms ease-in;
+}
+
+@keyframes ClickAnimMenu {
+    0% {
+        box-shadow: -3px 4px 0px rgba(0, 0, 0, 0.6);
+        transform: translateX(0) translateY(0);
+        -webkit-transform: translateX(0) translateY(0);
+        -moz-transform: translateX(0) translateY(0);
+        -ms-transform: translateX(0) translateY(0);
+        -o-transform: translateX(0) translateY(0);
+}
+    50% {
+        box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.6);
+        transform: translateX(-4px) translateY(3px);
+        -webkit-transform: translateX(-4px) translateY(3px);
+        -moz-transform: translateX(-4px) translateY(3px);
+        -ms-transform: translateX(-4px) translateY(3px);
+        -o-transform: translateX(-4px) translateY(3px);
+}
+    100% {
+        box-shadow: -3px 4px 0px rgba(0, 0, 0, 0.6);
+        transform: translateX(0) translateY(0);
+        -webkit-transform: translateX(0) translateY(0);
+        -moz-transform: translateX(0) translateY(0);
+        -ms-transform: translateX(0) translateY(0);
+        -o-transform: translateX(0) translateY(0);
+    }
+}
+
     .NavLinks {
         display: flex;
-        flex-direction: row;
-        justify-content: flex-end;
+        flex-direction: column;
+        justify-content: center;
         align-items: center;
+        position: absolute;
+        backdrop-filter: blur(5px);
+        -webkit-backdrop-filter: blur(5px);
+        background-color: rgba(0, 0, 0, 0.5);
+        width: 100%;
+        height: 80vh;
+        top: 100%;
+        left: 0;
     }
-    
+
     .NavItem {
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         justify-content: center;
         align-items: center;
         margin: 0 1rem;
         cursor: pointer;
-        width: 70px;
+        width: 100px;
         height: auto;
-        margin: 5px;
+        margin: 15px;
         padding: 10px;
         border: 2px solid rgb(0, 0, 0);
         border-radius: 10px;
         text-decoration: none;
         color: rgb(0, 0, 0);
         font-weight: bold;
-        font-size: 15px;
+        font-size: 18px;
         background-color: rgb(163, 89, 89);
         box-shadow: -3px 4px 0px rgba(0, 0, 0, 0.6);
     }
-    
+
+    .NavItem:active {
+        animation: ClickAnimNav 200ms ease-in;
+        -webkit-animation: ClickAnimNav 200ms ease-in;
+}
+
+@keyframes ClickAnimNav {
+    0% {
+        box-shadow: -3px 4px 0px rgba(0, 0, 0, 0.6);
+        transform: translateX(0) translateY(0);
+        -webkit-transform: translateX(0) translateY(0);
+        -moz-transform: translateX(0) translateY(0);
+        -ms-transform: translateX(0) translateY(0);
+        -o-transform: translateX(0) translateY(0);
+}
+    50% {
+        box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.6);
+        transform: translateX(-4px) translateY(3px);
+        -webkit-transform: translateX(-4px) translateY(3px);
+        -moz-transform: translateX(-4px) translateY(3px);
+        -ms-transform: translateX(-4px) translateY(3px);
+        -o-transform: translateX(-4px) translateY(3px);
+}
+    100% {
+        box-shadow: -3px 4px 0px rgba(0, 0, 0, 0.6);
+        transform: translateX(0) translateY(0);
+        -webkit-transform: translateX(0) translateY(0);
+        -moz-transform: translateX(0) translateY(0);
+        -ms-transform: translateX(0) translateY(0);
+        -o-transform: translateX(0) translateY(0);
+    }
+}
+
     .Home {
         border: 2px solid rgb(0, 0, 0);
         background-color: rgb(155,155,155);
@@ -1156,9 +1472,8 @@
         flex-direction: column;
         justify-content: flex-start;
         align-items: center;
-        min-height: 400px;
-        padding: 35px 100px;
-        margin: 15px;
+        min-height: 300px;
+        padding: 20px 20px;
         box-shadow: -5px 7px 0px rgba(0, 0, 0, 0.6);
         border-radius: 10px;
         -webkit-border-radius: 10px;
@@ -1167,12 +1482,16 @@
         -o-border-radius: 10px;
         font-weight: bold;
     }
-    
-    .Home p {
-        font-size: 20px;
-        width: 60%;
+
+    .Home h1 {
+        font-size: 25px;
     }
-    
+
+    .Home p {
+        font-size: 15px;
+        width: 80%;
+    }
+
     .Resume {
         border: 2px solid rgb(0, 0, 0);
         background-color: rgb(155,155,155);
@@ -1182,7 +1501,7 @@
         justify-content: center;
         align-items: center;
         height: fit-content;
-        padding: 35px 100px;
+        padding: 15px 25px;
         margin: 15px;
         box-shadow: -5px 7px 0px rgba(0, 0, 0, 0.6);
         border-radius: 10px;
@@ -1191,43 +1510,136 @@
         -ms-border-radius: 10px;
         -o-border-radius: 10px;
     }
-    
+
     .ResumeHeader {
-        font-size: 40px;
+        font-size: 25px;
         font-weight: bold;
+        margin-bottom: 15px;
+        text-align: center;
     }
-    
+
     .SectionHeader {
-        font-size: 30px;
+        font-size: 20px;
         font-weight: bold;
         margin: 20px 0;
         text-align: center;
     }
-    
+
+    .XPCardsTitle {
+        font-size: 20px;
+        font-weight: bold;
+        text-align: center;
+        color: rgb(0, 0, 0);
+        margin: 30px 0;
+    }
+
+    .XPCards {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: flex-start;
+        flex-wrap: wrap;
+        width: 100%;
+        max-height: fit-content;
+    }
+
+    .JobCard {
+        display: flex;
+        flex: 1 1 calc(20% - 10px);
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border: 2px solid rgb(77, 42, 42);
+        background-color: rgb(163, 89, 89);
+        color: black;
+        max-width: 255px;
+        min-height: 80px;
+        min-width: 236px;
+        padding: 15px 10px 10px 10px;
+        margin: 15px;
+        box-shadow: -5px 7px 0px rgba(0, 0, 0, 0.6);
+        border-radius: 10px;
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        -ms-border-radius: 10px;
+        -o-border-radius: 10px;
+    }
+
+    .JobCard-1 img {
+        width: 154px;
+    }
+
+    .JobCard-2 img {
+        width: 186px;
+    }
+
+    .JobCard-3 img {
+        width: 63px;
+    }
+
+    .JobCard-4 img {
+        width: 200px;
+        margin-top: 6px;
+    }
+
+    .JobCard-5 img {
+        width: 150px;
+    }
+
+    .JobCard-6 img {
+        width: 130px;
+    }
+
+    .JobCard-7 img {
+        width: 220px;
+        margin: 19px 0 10px 0;
+    }
+
+    .JobCard-8 img {
+        width: 80px;
+    }
+
+    .description {
+        text-align: center;
+        width: 90%;
+    }
+
+    .company {
+        font-size: 20px;
+        font-weight: bold;
+        text-align: center;
+    }
+
+    .duties {
+        font-size: 12px;
+        text-align: center;
+        margin: 0 auto;
+        float: left;
+    }
+
     .SectionCert {
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
         width: 100%;
-        margin: 0 auto;
     }
-    
+
     .Certs {
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         justify-content: center;
         align-items: center;
         flex-wrap: wrap;
     }
-    
+
     .CertHeader {
-        font-size: 30px;
+        font-size: 20px;
         font-weight: bold;
         margin: 20px 0;
         text-align: center;
     }
-    
+
     .Certificates {
         text-align: center;
         display: flex;
@@ -1236,17 +1648,15 @@
         align-items: center;
         width: 100%;
     }
-    
+
     .Certs {
         display: flex;
-        flex-direction: row;
-        justify-content: space-between;
+        flex-direction: column;
+        justify-content: center;
         align-items: center;
         flex-wrap: wrap;
-        width: 90%;
     }
-    
-    
+
     .CertCards {
         flex: 1 1 calc(20% - 10px);
         display: flex;
@@ -1264,39 +1674,29 @@
         color: black;
         font-weight: bold;
         text-align: center;
-        width: 170px;
-        height: 140px;
-        margin: 15px;
+        width: 200px;
+        height: 110px;
+        margin: 15px 0;
         padding-top: 10px;
     }
-    
-    .CertCards:hover {
-        transform: translateX(5px) translateY(-5px);
-        color: black;
-        box-shadow: -5px 5px 0px rgba(0, 0, 0, 0.6);
-        -webkit-transform: translateX(5px) translateY(-5px);
-        -moz-transform: translateX(5px) translateY(-5px);
-        -ms-transform: translateX(5px) translateY(-5px);
-        -o-transform: translateX(5px) translateY(-5px);
-    }
-    
+
     .CertTitle, .CertIssuer, .CertDate, .Verify{
         margin: 0;
     }
-    
+
     .CertTitle {
-        font-size: 15px;
+        font-size: 12px;
         font-weight: bold;
     }
-    
+
     .CertIssuer {
-        font-size: 12px;
+        font-size: 10px;
     }
-    
+
     .CertDate {
         font-size: 10px;
     }
-    
+
     .Verify {
         font-size: 15px;
         font-weight: bold;
@@ -1313,7 +1713,7 @@
         padding-bottom: 7px;
         bottom: 0;
     }
-    
+
     .ProjectsContainer {
         border: 2px solid rgb(0, 0, 0);
         background-color: rgb(155,155,155);
@@ -1331,12 +1731,12 @@
         -ms-border-radius: 10px;
         -o-border-radius: 10px;
     }
-    
+
     .Projects-Heading {
         font-size: 40px;
         color: rgb(0, 0, 0);
     }
-    
+
     .Projects {
         display: flex;
         flex-direction: row;
@@ -1347,7 +1747,7 @@
         margin-bottom: 30px;
         width: 40%;
     }
-    
+
     .ProjectLinks {
         display: flex;
         flex-direction: row;
@@ -1366,84 +1766,7 @@
         font-size: 20px;
         box-shadow: -5px 7px 0px rgba(0, 0, 0, 0.6);
     }
-    
-    .XPCardsTitle {
-        font-size: 30px;
-        font-weight: bold;
-        text-align: center;
-        color: rgb(0, 0, 0);
-        margin: 30px 0;
-    }
-    
-    .XPCards {
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        align-items: flex-start;
-        flex-wrap: wrap;
-        width: 100%;
-        max-height: 600px;
-    
-    }
-    
-    .JobCard {
-        display: flex;
-        flex: 1 1 calc(20% - 10px);
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        border: 2px solid rgb(77, 42, 42);
-        background-color: rgb(163, 89, 89);
-        color: black;
-        max-width: 255px;
-        min-height: 80px;
-        max-width: 325px;
-        padding: 10px 10px 10px 10px;
-        padding-top: 15px;
-        margin: 15px;
-        box-shadow: -5px 7px 0px rgba(0, 0, 0, 0.6);
-        border-radius: 10px;
-        -webkit-border-radius: 10px;
-        -moz-border-radius: 10px;
-        -ms-border-radius: 10px;
-        -o-border-radius: 10px;
-    }
-    
-    .JobCard-1 img {
-        width: 154px;
-    }
-    
-    .JobCard-2 img {
-        width: 186px;
-    }
-    
-    .JobCard-3 img {
-        width: 63px;
-    }
-    
-    .JobCard-4 img {
-        width: 200px;
-        margin-top: 6px;
-    }
-    
-    .JobCard-5 img {
-        width: 150px;
-    }
-    
-    .JobCard-6 img {
-        width: 130px;
-    }
-    
-    .JobCard-7 img {
-        width: 220px;
-        margin: 19px 0 10px 0;
-    }
-    
-    .JobCard-8 img {
-        width: 80px;
-    
-    }
-    
+
     .Contact {
         border: 2px solid rgb(0, 0, 0);
         background-color: rgb(155,155,155);
@@ -1453,7 +1776,7 @@
         justify-content: center;
         align-items: center;
         height: fit-content;
-        padding: 35px 100px;
+        padding: 15px 15px;
         margin: 15px;
         box-shadow: -5px 7px 0px rgba(0, 0, 0, 0.6);
         border-radius: 10px;
@@ -1462,29 +1785,29 @@
         -ms-border-radius: 10px;
         -o-border-radius: 10px;
     }
-    
+
     .Contact-Header {
-        font-size: 50px;
+        font-size: 25px;
         font-weight: bold;
         text-align: center;
     }
-    
+
     .Contact form {
         display: flex;
         flex-direction: column;
         justify-content: center;
     }
-    
+
     .Contact-Name {
         display: flex;
         flex-direction: row;
         align-items: center;
         width: 100%;
         margin: 15px 0;
-        font-size: 20px;
+        font-size: 15px;
         font-weight: bold;
     }
-    
+
     .Contact-Name input {
         border: 2px solid rgb(0, 0, 0);
         border-radius: 10px;
@@ -1494,19 +1817,21 @@
         -o-border-radius: 10px;
         padding: 5px;
         margin-left: 10px;
-    
+        width: 100%;
+        font-size: 12px;
+        font-family: monospace;
     }
-    
+
     .Contact-Email {
         display: flex;
         flex-direction: row;
         align-items: center;
         width: 100%;
         margin: 15px 0;
-        font-size: 20px;
+        font-size: 15px;
         font-weight: bold;
     }
-    
+
     .Contact-Email input {
         border: 2px solid rgb(0, 0, 0);
         border-radius: 10px;
@@ -1515,22 +1840,24 @@
         -ms-border-radius: 10px;
         -o-border-radius: 10px;
         padding: 5px;
+        width: 100%;
         margin-left: 10px;
-    
+        font-size: 12px;
+        font-family: monospace;
     }
-    
+
     .Contact-Message {
         display: flex;
         flex-direction: column;
         align-items: center;
         width: 100%;
         margin: 15px 0;
-        font-size: 20px;
+        font-size: 15px;
         font-weight: bold;
     }
-    
+
     .Contact-Message textarea {
-        width: 450px;
+        width: 250px;
         height: 100px;
         border: 2px solid rgb(0, 0, 0);
         border-radius: 10px;
@@ -1539,12 +1866,13 @@
         -ms-border-radius: 10px;
         -o-border-radius: 10px;
         padding: 10px;
+        font-size: 12px;
         font-family: monospace;
     }
-    
+
     .Conatct-SubmitBtn {
-        width: 100px;
-        height: 50px;
+        width: 160px;
+        height: 40px;
         border: 2px solid rgb(0, 0, 0);
         border-radius: 10px;
         -webkit-border-radius: 10px;
@@ -1557,9 +1885,8 @@
         background-color: rgb(163, 89, 89);
         color: black;
         box-shadow: -5px 7px 0px rgba(0, 0, 0, 0.6);
-    
     }
-    
+
     .Footer {
         display: flex;
         flex-direction: row;
@@ -1570,8 +1897,9 @@
         color: black;
         display: flex;
         flex-direction: column;
-        margin: 15px;
+        margin: 10px;
         padding: 10px;
+        text-align: center;
         box-shadow: -5px 7px 0px rgba(0, 0, 0, 0.6);
         border-radius: 10px;
         -webkit-border-radius: 10px;
@@ -1579,25 +1907,35 @@
         -ms-border-radius: 10px;
         -o-border-radius: 10px;
         font-weight: bold;
+        font-size: 10px;
     }
 }
 
 /* bigger computers screens */
-@media screen and (min-width: 1200px)  {
+@media screen and (min-width: 1025px)  {
     * {
         font-family: Verdana, Geneva, Tahoma, sans-serif;
     }
-    
+
+    #root{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+        max-height: fit-content;
+    }
+
     .Container {
         display: flex;
         flex-direction: column;
+        max-width: 1200px;
         min-height: 100vh;
         max-height: fit-content;
         margin: 15px;
         padding: 10px;
-    
     }
-    
+
     .Nav {
         display: flex;
         flex-direction: row;
@@ -1607,6 +1945,7 @@
         background-color: rgb(155,155,155);
         padding: 0 2rem;
         height: 60px;
+        max-width: 1200px;
         margin-bottom: 20px;
         position: sticky;
         top: 0;
@@ -1805,9 +2144,6 @@
         height: 140px;
         margin: 15px;
         padding-top: 10px;
-    }
-
-    .CertCards:hover {
         transform: translateX(5px) translateY(-5px);
         color: black;
         box-shadow: -5px 5px 0px rgba(0, 0, 0, 0.6);
@@ -1815,6 +2151,43 @@
         -moz-transform: translateX(5px) translateY(-5px);
         -ms-transform: translateX(5px) translateY(-5px);
         -o-transform: translateX(5px) translateY(-5px);
+    }
+
+    .CertCards:active {
+        animation: clickAnimCertCard 300ms ease-in;
+        -webkit-animation: clickAnimCertCard 300ms ease-in;
+}
+
+    @keyframes clickAnimCertCard {
+        0% {
+            transform: translateX(5px) translateY(-5px);
+            color: black;
+            box-shadow: -5px 5px 0px rgba(0, 0, 0, 0.6);
+            -webkit-transform: translateX(5px) translateY(-5px);
+            -moz-transform: translateX(5px) translateY(-5px);
+            -ms-transform: translateX(5px) translateY(-5px);
+            -o-transform: translateX(5px) translateY(-5px);
+        }
+
+        50% {
+            transform: translateX(0px) translateY(0px);
+            color: black;
+            box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.6);
+            -webkit-transform: translateX(0px) translateY(0px);
+            -moz-transform: translateX(0px) translateY(0px);
+            -ms-transform: translateX(0px) translateY(0px);
+            -o-transform: translateX(0px) translateY(0px);
+        }
+
+        100% {
+            transform: translateX(5px) translateY(-5px);
+            color: black;
+            box-shadow: -5px 5px 0px rgba(0, 0, 0, 0.6);
+            -webkit-transform: translateX(5px) translateY(-5px);
+            -moz-transform: translateX(5px) translateY(-5px);
+            -ms-transform: translateX(5px) translateY(-5px);
+            -o-transform: translateX(5px) translateY(-5px);
+        }
     }
 
     .CertTitle, .CertIssuer, .CertDate, .Verify{
