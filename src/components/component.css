@@ -67,8 +67,9 @@
         justify-content: center;
         align-items: center;
         height: 35px;
-        width: 25px;
-        font-size: 30px;
+        width: 35px;
+        font-size: 25px;
+        padding: 0 0 3px 0;
         background-color: rgb(163, 89, 89);
         color: rgba(0, 0, 0, 1);
         border: 2px solid black;
@@ -78,7 +79,11 @@
         -ms-border-radius: 5px;
         -o-border-radius: 5px;
         box-shadow: -3px 4px 0px rgba(0, 0, 0, 0.6);
-    }
+        -webkit-transform: translateY(1px);
+        -moz-transform: translateY(1px);
+        -ms-transform: translateY(1px);
+        -o-transform: translateY(1px);
+}
 
     .Menubutton:active {
         box-shadow: none;
