@@ -285,7 +285,7 @@
         max-width: 255px;
         min-height: 80px;
         min-width: 236px;
-        max-height: 200px;
+        max-height: 260px;
         padding: 15px 10px 10px 10px;
         margin: 15px;
         box-shadow: -5px 7px 0px rgba(0, 0, 0, 0.6);
@@ -331,10 +331,6 @@
         width: 80px;
     }
 
-    .description {
-        text-align: center;
-        width: 90%;
-    }
 
     .company {
         border-top: 2px solid rgb(0, 0, 0);
