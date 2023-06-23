@@ -1920,24 +1920,20 @@
         font-family: Verdana, Geneva, Tahoma, sans-serif;
     }
 
-    #root{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        min-height: 100vh;
-        max-height: fit-content;
-    }
-
     .Container {
         display: flex;
         flex-direction: column;
-        justify-content: center;
-        min-width: 1100px;
-        min-height: 100vh;
+        min-height: 100px;
         max-height: fit-content;
-        margin: 15px;
-        padding: 10px;
+        margin: 10px;
+    }
+
+    .HomeContent {
+        display: flex;
+        flex-direction: column;
+        min-height: 100px;
+        max-height: fit-content;
+        margin: 10px;
     }
 
     .Nav {
@@ -1947,10 +1943,10 @@
         align-items: center;
         border: 3px solid rgb(0, 0, 0);
         background-color: rgb(155,155,155);
-        padding: 0 2rem;
-        height: 60px;
-        max-width: 1200px;
-        margin-bottom: 20px;
+        padding: 0 5px;
+        min-height: 40px;
+        max-height: fit-content;
+        margin: 5px 5px 10px 5px;
         position: sticky;
         top: 0;
         z-index: 10;
@@ -1961,7 +1957,7 @@
         -ms-border-radius: 10px;
         -o-border-radius: 10px;
     }
-    
+
     .LogoName {
         display: flex;
         flex-direction: row;
@@ -1971,22 +1967,22 @@
 
     .NavLogo {
         width: 40px;
-        padding: 0 10px 0 0;
+        margin: 10px
     }
 
     .Logo {
         color: black;
-        font-size: 20px;
+        font-size: 18px;
         font-weight: bold;
     }
-    
+
     .NavButton {
         display: flex;
-        flex-direction: row;
-        justify-content: flex-end;
+        flex-direction: column-reverse;
+        justify-content: center;
         align-items: center;
     }
-    
+
     .Menubutton {
         height: 35px;
         width: 35px;
@@ -2001,34 +1997,107 @@
         -o-border-radius: 5px;
         box-shadow: -3px 4px 0px rgba(0, 0, 0, 0.6);
     }
-    
+
+    .Menubutton:active {
+        box-shadow: none;
+        animation: ClickAnimMenu 200ms ease-in;
+        -webkit-animation: ClickAnimMenu 200ms ease-in;
+}
+
+@keyframes ClickAnimMenu {
+    0% {
+        box-shadow: -3px 4px 0px rgba(0, 0, 0, 0.6);
+        transform: translateX(0) translateY(0);
+        -webkit-transform: translateX(0) translateY(0);
+        -moz-transform: translateX(0) translateY(0);
+        -ms-transform: translateX(0) translateY(0);
+        -o-transform: translateX(0) translateY(0);
+}
+    50% {
+        box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.6);
+        transform: translateX(-4px) translateY(3px);
+        -webkit-transform: translateX(-4px) translateY(3px);
+        -moz-transform: translateX(-4px) translateY(3px);
+        -ms-transform: translateX(-4px) translateY(3px);
+        -o-transform: translateX(-4px) translateY(3px);
+}
+    100% {
+        box-shadow: -3px 4px 0px rgba(0, 0, 0, 0.6);
+        transform: translateX(0) translateY(0);
+        -webkit-transform: translateX(0) translateY(0);
+        -moz-transform: translateX(0) translateY(0);
+        -ms-transform: translateX(0) translateY(0);
+        -o-transform: translateX(0) translateY(0);
+    }
+}
+
     .NavLinks {
         display: flex;
-        flex-direction: row;
-        justify-content: flex-end;
+        flex-direction: column;
+        justify-content: flex-start;
         align-items: center;
+        position: absolute;
+        backdrop-filter: blur(5px);
+        -webkit-backdrop-filter: blur(5px);
+        background-color: rgba(0, 0, 0, 0.5);
+        width: 100%;
+        height: 89vh;
+        top: 100%;
+        left: 0;
     }
 
     .NavItem {
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         justify-content: center;
         align-items: center;
         margin: 0 1rem;
         cursor: pointer;
-        width: 70px;
+        width: 100px;
         height: auto;
-        margin: 5px;
+        margin: 15px;
         padding: 10px;
         border: 2px solid rgb(0, 0, 0);
         border-radius: 10px;
         text-decoration: none;
         color: rgb(0, 0, 0);
         font-weight: bold;
-        font-size: 15px;
+        font-size: 18px;
         background-color: rgb(163, 89, 89);
         box-shadow: -3px 4px 0px rgba(0, 0, 0, 0.6);
     }
+
+    .NavItem:active {
+        animation: ClickAnimNav 200ms ease-in;
+        -webkit-animation: ClickAnimNav 200ms ease-in;
+}
+
+@keyframes ClickAnimNav {
+    0% {
+        box-shadow: -3px 4px 0px rgba(0, 0, 0, 0.6);
+        transform: translateX(0) translateY(0);
+        -webkit-transform: translateX(0) translateY(0);
+        -moz-transform: translateX(0) translateY(0);
+        -ms-transform: translateX(0) translateY(0);
+        -o-transform: translateX(0) translateY(0);
+}
+    50% {
+        box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.6);
+        transform: translateX(-4px) translateY(3px);
+        -webkit-transform: translateX(-4px) translateY(3px);
+        -moz-transform: translateX(-4px) translateY(3px);
+        -ms-transform: translateX(-4px) translateY(3px);
+        -o-transform: translateX(-4px) translateY(3px);
+}
+    100% {
+        box-shadow: -3px 4px 0px rgba(0, 0, 0, 0.6);
+        transform: translateX(0) translateY(0);
+        -webkit-transform: translateX(0) translateY(0);
+        -moz-transform: translateX(0) translateY(0);
+        -ms-transform: translateX(0) translateY(0);
+        -o-transform: translateX(0) translateY(0);
+    }
+}
 
     .Home {
         border: 2px solid rgb(0, 0, 0);
@@ -2038,9 +2107,8 @@
         flex-direction: column;
         justify-content: flex-start;
         align-items: center;
-        min-height: 400px;
-        padding: 35px 100px;
-        margin: 15px;
+        min-height: 300px;
+        padding: 20px 20px 400px 20px;
         box-shadow: -5px 7px 0px rgba(0, 0, 0, 0.6);
         border-radius: 10px;
         -webkit-border-radius: 10px;
@@ -2050,9 +2118,14 @@
         font-weight: bold;
     }
 
+    .Home h1 {
+        font-size: 70px;
+    }
+
     .Home p {
-        font-size: 20px;
-        width: 60%;
+        font-size: 25px;
+        width: 80%;
+        text-align: center;
     }
 
     .Resume {
@@ -2064,7 +2137,7 @@
         justify-content: center;
         align-items: center;
         height: fit-content;
-        padding: 35px 25px;
+        padding: 15px 25px;
         margin: 15px;
         box-shadow: -5px 7px 0px rgba(0, 0, 0, 0.6);
         border-radius: 10px;
@@ -2075,39 +2148,117 @@
     }
 
     .ResumeHeader {
-        font-size: 40px;
+        font-size: 25px;
         font-weight: bold;
+        margin-bottom: 15px;
+        text-align: center;
     }
 
     .SectionHeader {
-        font-size: 30px;
+        font-size: 20px;
         font-weight: bold;
         margin: 20px 0;
         text-align: center;
     }
 
-    .SectionCert {
+    .XPCardsTitle {
+        font-size: 20px;
+        font-weight: bold;
+        text-align: center;
+        color: rgb(0, 0, 0);
+        margin: 30px 0;
+    }
+
+    .XPCards {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: flex-start;
+        flex-wrap: wrap;
+        width: 100%;
+        max-height: fit-content;
+    }
+
+    .JobCard {
+        display: flex;
+        flex: 1 1 calc(20% - 10px);
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border: 2px solid rgb(77, 42, 42);
+        background-color: rgb(163, 89, 89);
+        color: black;
+        max-width: 255px;
+        min-height: 80px;
+        min-width: 236px;
+        padding: 15px 10px 10px 10px;
+        margin: 15px;
+        box-shadow: -5px 7px 0px rgba(0, 0, 0, 0.6);
+        border-radius: 10px;
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        -ms-border-radius: 10px;
+        -o-border-radius: 10px;
+    }
+
+    .JobCard-1 img {
+        width: 154px;
+    }
+
+    .JobCard-2 img {
+        width: 186px;
+    }
+
+    .JobCard-3 img {
+        width: 63px;
+    }
+
+    .JobCard-4 img {
+        width: 200px;
+        margin-top: 6px;
+    }
+
+    .JobCard-5 img {
+        width: 150px;
+    }
+
+    .JobCard-6 img {
+        width: 130px;
+    }
+
+    .JobCard-7 img {
+        width: 220px;
+        margin: 19px 0 10px 0;
+    }
+
+    .JobCard-8 img {
+        width: 80px;
+    }
+
+    .description {
+        text-align: center;
+        width: 90%;
+    }
+
+    .company {
+        font-size: 20px;
+        font-weight: bold;
+        text-align: center;
+    }
+
+    .duties {
+        font-size: 12px;
+        text-align: center;
+        margin: 0 auto;
+        float: left;
+    }
+
+    .SectionContent {
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
         width: 100%;
-        margin: 0 auto;
-    }
-
-    .Certs {
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        align-items: center;
-        flex-wrap: wrap;
-    }
-
-    .CertHeader {
-        font-size: 30px;
-        font-weight: bold;
-        margin: 20px 0;
-        text-align: center;
     }
 
     .Certificates {
@@ -2119,17 +2270,42 @@
         width: 100%;
     }
 
+    .SectionCert {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+
+    .Certs {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    .CertHeader {
+        font-size: 20px;
+        font-weight: bold;
+        margin: 20px 0;
+        text-align: center;
+    }
+
+
+
     .Certs {
         display: flex;
         flex-direction: row;
-        justify-content: space-between;
+        justify-content: center;
         align-items: center;
         flex-wrap: wrap;
         width: 90%;
     }
 
     .CertCards {
-        flex: 1 1 calc(20% - 10px);
+
         display: flex;
         flex-direction: column;
         justify-content: space-between;
@@ -2145,54 +2321,10 @@
         color: black;
         font-weight: bold;
         text-align: center;
-        width: 170px;
-        height: 140px;
-        margin: 15px;
+        width: 200px;
+        height: 110px;
+        margin: 15px 0;
         padding-top: 10px;
-        transform: translateX(5px) translateY(-5px);
-        color: black;
-        box-shadow: -5px 5px 0px rgba(0, 0, 0, 0.6);
-        -webkit-transform: translateX(5px) translateY(-5px);
-        -moz-transform: translateX(5px) translateY(-5px);
-        -ms-transform: translateX(5px) translateY(-5px);
-        -o-transform: translateX(5px) translateY(-5px);
-    }
-
-    .CertCards:active {
-        animation: clickAnimCertCard 300ms ease-in;
-        -webkit-animation: clickAnimCertCard 300ms ease-in;
-}
-
-    @keyframes clickAnimCertCard {
-        0% {
-            transform: translateX(5px) translateY(-5px);
-            color: black;
-            box-shadow: -5px 5px 0px rgba(0, 0, 0, 0.6);
-            -webkit-transform: translateX(5px) translateY(-5px);
-            -moz-transform: translateX(5px) translateY(-5px);
-            -ms-transform: translateX(5px) translateY(-5px);
-            -o-transform: translateX(5px) translateY(-5px);
-        }
-
-        50% {
-            transform: translateX(0px) translateY(0px);
-            color: black;
-            box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.6);
-            -webkit-transform: translateX(0px) translateY(0px);
-            -moz-transform: translateX(0px) translateY(0px);
-            -ms-transform: translateX(0px) translateY(0px);
-            -o-transform: translateX(0px) translateY(0px);
-        }
-
-        100% {
-            transform: translateX(5px) translateY(-5px);
-            color: black;
-            box-shadow: -5px 5px 0px rgba(0, 0, 0, 0.6);
-            -webkit-transform: translateX(5px) translateY(-5px);
-            -moz-transform: translateX(5px) translateY(-5px);
-            -ms-transform: translateX(5px) translateY(-5px);
-            -o-transform: translateX(5px) translateY(-5px);
-        }
     }
 
     .CertTitle, .CertIssuer, .CertDate, .Verify{
@@ -2200,12 +2332,12 @@
     }
 
     .CertTitle {
-        font-size: 15px;
+        font-size: 12px;
         font-weight: bold;
     }
 
     .CertIssuer {
-        font-size: 12px;
+        font-size: 10px;
     }
 
     .CertDate {
@@ -2282,100 +2414,6 @@
         box-shadow: -5px 7px 0px rgba(0, 0, 0, 0.6);
     }
 
-    .XPCardsTitle {
-        font-size: 30px;
-        font-weight: bold;
-        text-align: center;
-        color: rgb(0, 0, 0);
-        margin: 30px 0;
-    }
-
-    .XPCards {
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        align-items: flex-start;
-        flex-wrap: wrap;
-        width: 100%;
-        max-height: 600px;
-    }
-
-    .JobCard {
-        display: flex;
-        flex: 1 1 20%;
-        flex-direction: column;
-        justify-content: flex-start;
-        align-items: center;
-        border: 2px solid rgb(77, 42, 42);
-        background-color: rgb(163, 89, 89);
-        color: black;
-        max-width: 200px;
-        min-height: 80px;
-        min-width: 236px;
-        max-height: 250px;
-        padding: 15px 10px 10px 10px;
-        margin: 5px;
-        box-shadow: -5px 7px 0px rgba(0, 0, 0, 0.6);
-        border-radius: 10px;
-        -webkit-border-radius: 10px;
-        -moz-border-radius: 10px;
-        -ms-border-radius: 10px;
-        -o-border-radius: 10px;
-        overflow: scroll;
-    }
-
-    .JobCard-1 img {
-        width: 154px;
-    }
-
-    .JobCard-2 img {
-        width: 186px;
-    }
-
-    .JobCard-3 img {
-        width: 63px;
-    }
-
-    .JobCard-4 img {
-        width: 200px;
-        margin-top: 6px;
-    }
-
-    .JobCard-5 img {
-        width: 150px;
-    }
-
-    .JobCard-6 img {
-        width: 130px;
-    }
-
-    .JobCard-7 img {
-        width: 220px;
-        margin: 19px 0 10px 0;
-    }
-
-    .JobCard-8 img {
-        width: 80px;
-    }
-
-    .description {
-        text-align: center;
-        width: 90%;
-    }
-
-    .company {
-        font-size: 20px;
-        font-weight: bold;
-        text-align: center;
-    }
-
-    .duties {
-        font-size: 12px;
-        text-align: center;
-        margin: 0 auto;
-        float: left;
-    }
-
     .Contact {
         border: 2px solid rgb(0, 0, 0);
         background-color: rgb(155,155,155);
@@ -2385,7 +2423,7 @@
         justify-content: center;
         align-items: center;
         height: fit-content;
-        padding: 35px 100px;
+        padding: 15px 15px;
         margin: 15px;
         box-shadow: -5px 7px 0px rgba(0, 0, 0, 0.6);
         border-radius: 10px;
@@ -2394,29 +2432,29 @@
         -ms-border-radius: 10px;
         -o-border-radius: 10px;
     }
-    
+
     .Contact-Header {
-        font-size: 50px;
+        font-size: 25px;
         font-weight: bold;
         text-align: center;
     }
-    
+
     .Contact form {
         display: flex;
         flex-direction: column;
         justify-content: center;
     }
-    
+
     .Contact-Name {
         display: flex;
         flex-direction: row;
         align-items: center;
         width: 100%;
         margin: 15px 0;
-        font-size: 20px;
+        font-size: 15px;
         font-weight: bold;
     }
-    
+
     .Contact-Name input {
         border: 2px solid rgb(0, 0, 0);
         border-radius: 10px;
@@ -2426,19 +2464,21 @@
         -o-border-radius: 10px;
         padding: 5px;
         margin-left: 10px;
-    
+        width: 100%;
+        font-size: 12px;
+        font-family: monospace;
     }
-    
+
     .Contact-Email {
         display: flex;
         flex-direction: row;
         align-items: center;
         width: 100%;
         margin: 15px 0;
-        font-size: 20px;
+        font-size: 15px;
         font-weight: bold;
     }
-    
+
     .Contact-Email input {
         border: 2px solid rgb(0, 0, 0);
         border-radius: 10px;
@@ -2447,22 +2487,24 @@
         -ms-border-radius: 10px;
         -o-border-radius: 10px;
         padding: 5px;
+        width: 100%;
         margin-left: 10px;
-    
+        font-size: 12px;
+        font-family: monospace;
     }
-    
+
     .Contact-Message {
         display: flex;
         flex-direction: column;
         align-items: center;
         width: 100%;
         margin: 15px 0;
-        font-size: 20px;
+        font-size: 15px;
         font-weight: bold;
     }
-    
+
     .Contact-Message textarea {
-        width: 450px;
+        width: 250px;
         height: 100px;
         border: 2px solid rgb(0, 0, 0);
         border-radius: 10px;
@@ -2471,12 +2513,13 @@
         -ms-border-radius: 10px;
         -o-border-radius: 10px;
         padding: 10px;
+        font-size: 12px;
         font-family: monospace;
     }
-    
+
     .Conatct-SubmitBtn {
-        width: 300px;
-        height: 50px;
+        width: 160px;
+        height: 40px;
         border: 2px solid rgb(0, 0, 0);
         border-radius: 10px;
         -webkit-border-radius: 10px;
@@ -2489,9 +2532,8 @@
         background-color: rgb(163, 89, 89);
         color: black;
         box-shadow: -5px 7px 0px rgba(0, 0, 0, 0.6);
-    
     }
-    
+
     .Footer {
         display: flex;
         flex-direction: row;
@@ -2502,8 +2544,9 @@
         color: black;
         display: flex;
         flex-direction: column;
-        margin: 15px;
+        margin: 10px;
         padding: 10px;
+        text-align: center;
         box-shadow: -5px 7px 0px rgba(0, 0, 0, 0.6);
         border-radius: 10px;
         -webkit-border-radius: 10px;
@@ -2511,5 +2554,6 @@
         -ms-border-radius: 10px;
         -o-border-radius: 10px;
         font-weight: bold;
+        font-size: 15px;
     }
 }

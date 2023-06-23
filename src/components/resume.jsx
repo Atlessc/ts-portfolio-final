@@ -13,7 +13,7 @@ export function ResumePage() {
                 <div className="ResumeHeader">Tyler Smith's Resume</div>
                 <div className="AspireQuote"><i>Motivated and detail-oriented individual with a passion for coding and web development. Possessing 7 certificates, 6 months of hands-on experience in HTML, CSS, Javascript, typescript, SQL, JSON, React, and a personal website built from scratch while learning. Committed to delivering high-quality results and eager to bring customer service and tech support background to a new role as a junior web developer.</i></div>
                 <XPCards />
-                <div>
+                <div className="Certificates">
                     <div className="SectionContent">
                     <CertCards />
                     </div>
