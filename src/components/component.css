@@ -1950,7 +1950,7 @@
         padding: 0 2rem;
         height: 60px;
         max-width: 1200px;
-        margin: 0 15px 20px 15px;
+        margin-bottom: 20px;
         position: sticky;
         top: 0;
         z-index: 10;
