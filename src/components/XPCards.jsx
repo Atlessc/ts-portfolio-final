@@ -1,12 +1,18 @@
 import React, { useState } from 'react';
 import data from './jobs.json';
 import './component.css';
+import ReactGA from 'react-ga'
 
 export const XPCards = () => {
   const [expandedCardId, setExpandedCardId] = useState(null);
 
   const handleLogoClick = id => {
     setExpandedCardId(prevId => (prevId === id ? null : id));
+    ReactGA.event({
+      category: 'User',
+      action: 'Clicked on a job logo',
+      label: data.company
+    });
   };
 
   return (
