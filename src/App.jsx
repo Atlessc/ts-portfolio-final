@@ -5,8 +5,8 @@ import { NavSection } from './components/nav'
 import ReactGA from 'react-ga'
 import { useEffect } from 'react'
 
-const MEASUREMENT_ID ="G-YHWBDQHGFM";
-ReactGA.initialize(MEASUREMENT_ID);
+const TRACKING_ID ="UA-277352337-1";
+ReactGA.initialize(TRACKING_ID);
 
 
 function App() {
