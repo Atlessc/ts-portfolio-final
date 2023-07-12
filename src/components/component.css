@@ -7,8 +7,9 @@
     .Container {
         display: flex;
         flex-direction: column;
-        min-height: 800px;
+        min-height: 100vh;
         max-height: fit-content;
+        width: 99vw;
         margin: 10px;
     }
 
@@ -454,7 +455,8 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        height: fit-content;
+        min-height: 500px;
+        max-height: fit-content;
         padding: 10px;
         margin: 10px;
         box-shadow: -5px 7px 0px rgba(0, 0, 0, 0.6);
@@ -479,7 +481,7 @@
         justify-content: center;
         align-items: center;
         margin-bottom: 30px;
-        width: 100%;
+        width: 80%;
     }
 
     .ProjectLinks {
@@ -510,9 +512,9 @@
         color: black;
         display: flex;
         flex-direction: column;
-        justify-content: center;
         align-items: center;
-        height: fit-content;
+        min-height: 400px;
+        max-height: fit-content;
         padding: 15px 15px;
         margin: 15px;
         box-shadow: -5px 7px 0px rgba(0, 0, 0, 0.6);
@@ -659,9 +661,10 @@
     .Container {
         display: flex;
         flex-direction: column;
-        min-height: 100px;
+        min-height: 100vh;
         max-height: fit-content;
         margin: 10px;
+        width: 100%;
     }
 
     .HomeContent {
@@ -1104,7 +1107,8 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        height: fit-content;
+        min-height: 500px;
+        max-height: fit-content;
         padding: 10px;
         margin: 15px;
         box-shadow: -5px 7px 0px rgba(0, 0, 0, 0.6);
@@ -1116,6 +1120,7 @@
     }
 
     .Projects-Heading {
+        text-align: center;
         font-size: 40px;
         color: rgb(0, 0, 0);
     }
@@ -1128,7 +1133,7 @@
         justify-content: center;
         align-items: center;
         margin-bottom: 30px;
-        width: 40%;
+        width: 63%;
     }
 
     .ProjectLinks {
@@ -1158,7 +1163,8 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        height: fit-content;
+        min-height: 500px;
+        max-height: fit-content;
         padding: 15px 15px;
         margin: 15px;
         box-shadow: -5px 7px 0px rgba(0, 0, 0, 0.6);
@@ -1303,9 +1309,11 @@
     .Container {
         display: flex;
         flex-direction: column;
-        min-height: 100px;
+        min-height: 100vh;
         max-height: fit-content;
         margin: 10px;
+        min-width: 70%;
+        max-width: 1200px;
     }
 
     .HomeContent {
@@ -1748,7 +1756,8 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        height: fit-content;
+        height: 500px;
+        max-height: fit-content;
         padding: 10px;
         margin: 15px;
         box-shadow: -5px 7px 0px rgba(0, 0, 0, 0.6);
@@ -1760,6 +1769,7 @@
     }
 
     .Projects-Heading {
+        text-align: center;
         font-size: 40px;
         color: rgb(0, 0, 0);
     }
@@ -1772,7 +1782,7 @@
         justify-content: center;
         align-items: center;
         margin-bottom: 30px;
-        width: 40%;
+        width: 60%;
     }
 
     .ProjectLinks {
@@ -1947,9 +1957,11 @@
     .Container {
         display: flex;
         flex-direction: column;
-        min-height: 100px;
+        min-height: 100vh;
         max-height: fit-content;
         margin: 10px;
+        min-width: 70%;
+        max-width: 1200px;
     }
 
     .HomeContent {
@@ -2392,7 +2404,7 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        height: fit-content;
+        height: 700px;
         padding: 10px;
         margin: 15px;
         box-shadow: -5px 7px 0px rgba(0, 0, 0, 0.6);
@@ -2416,7 +2428,8 @@
         justify-content: center;
         align-items: center;
         margin-bottom: 30px;
-        width: 40%;
+        width: 700px;
+        height: fit-content;
     }
 
     .ProjectLinks {
@@ -2426,8 +2439,8 @@
         align-items: center;
         border: 2px solid black;
         background-color: rgb(163, 89, 89);
-        width: 150px;
-        height: 30px;
+        width: 250px;
+        height: 100px;
         margin: 7px;
         padding: 10px;
         text-decoration: none;
