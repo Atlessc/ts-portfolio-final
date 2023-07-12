@@ -770,14 +770,14 @@
     .NavLinks {
         display: flex;
         flex-direction: column;
-        justify-content: center;
+        justify-content: flex-start;
         align-items: center;
         position: absolute;
         backdrop-filter: blur(5px);
         -webkit-backdrop-filter: blur(5px);
         background-color: rgba(0, 0, 0, 0.5);
         width: 100%;
-        height: 80vh;
+        height: 89vh;
         top: 100%;
         left: 0;
     }
@@ -844,7 +844,7 @@
         justify-content: flex-start;
         align-items: center;
         min-height: 300px;
-        padding: 20px 20px;
+        padding: 20px 20px 400px 20px;
         box-shadow: -5px 7px 0px rgba(0, 0, 0, 0.6);
         border-radius: 10px;
         -webkit-border-radius: 10px;
@@ -855,12 +855,13 @@
     }
 
     .Home h1 {
-        font-size: 25px;
+        font-size: 70px;
     }
 
     .Home p {
-        font-size: 15px;
+        font-size: 25px;
         width: 80%;
+        text-align: center;
     }
 
     .Resume {
@@ -988,6 +989,23 @@
         float: left;
     }
 
+    .SectionContent {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+
+    .Certificates {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+
     .SectionCert {
         display: flex;
         flex-direction: column;
@@ -1011,25 +1029,19 @@
         text-align: center;
     }
 
-    .Certificates {
-        text-align: center;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        width: 100%;
-    }
+
 
     .Certs {
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
         justify-content: center;
         align-items: center;
         flex-wrap: wrap;
+        width: 90%;
     }
 
     .CertCards {
-        flex: 1 1 calc(20% - 10px);
+
         display: flex;
         flex-direction: column;
         justify-content: space-between;
@@ -1278,7 +1290,7 @@
         -ms-border-radius: 10px;
         -o-border-radius: 10px;
         font-weight: bold;
-        font-size: 10px;
+        font-size: 15px;
     }
 }
 
@@ -1402,14 +1414,14 @@
     .NavLinks {
         display: flex;
         flex-direction: column;
-        justify-content: center;
+        justify-content: flex-start;
         align-items: center;
         position: absolute;
         backdrop-filter: blur(5px);
         -webkit-backdrop-filter: blur(5px);
         background-color: rgba(0, 0, 0, 0.5);
         width: 100%;
-        height: 80vh;
+        height: 89vh;
         top: 100%;
         left: 0;
     }
@@ -1476,7 +1488,7 @@
         justify-content: flex-start;
         align-items: center;
         min-height: 300px;
-        padding: 20px 20px;
+        padding: 20px 20px 400px 20px;
         box-shadow: -5px 7px 0px rgba(0, 0, 0, 0.6);
         border-radius: 10px;
         -webkit-border-radius: 10px;
@@ -1487,12 +1499,13 @@
     }
 
     .Home h1 {
-        font-size: 25px;
+        font-size: 70px;
     }
 
     .Home p {
-        font-size: 15px;
+        font-size: 25px;
         width: 80%;
+        text-align: center;
     }
 
     .Resume {
@@ -1620,6 +1633,23 @@
         float: left;
     }
 
+    .SectionContent {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+
+    .Certificates {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+
     .SectionCert {
         display: flex;
         flex-direction: column;
@@ -1643,25 +1673,19 @@
         text-align: center;
     }
 
-    .Certificates {
-        text-align: center;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        width: 100%;
-    }
+
 
     .Certs {
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
         justify-content: center;
         align-items: center;
         flex-wrap: wrap;
+        width: 90%;
     }
 
     .CertCards {
-        flex: 1 1 calc(20% - 10px);
+
         display: flex;
         flex-direction: column;
         justify-content: space-between;
@@ -1910,7 +1934,7 @@
         -ms-border-radius: 10px;
         -o-border-radius: 10px;
         font-weight: bold;
-        font-size: 10px;
+        font-size: 15px;
     }
 }
 
