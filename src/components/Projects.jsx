@@ -1,6 +1,7 @@
 import { FooterSection } from "./footer";
 import { NavSection } from "./nav";
 import "./component.css";
+import "./Projects.css";
 
 export default function ProjectsPage() {
     return (
@@ -15,8 +16,8 @@ export default function ProjectsPage() {
             <a href="https://thinkr.vercel.app/" target="_blank" className="ProjectLinks">
                 <div>Thinkr</div>
             </a>
-            <a href="#" target="_blank" className="ProjectLinks" >
-                <div>Another One</div>
+            <a href="https://the-halls-whisper-murder.vercel.app/" target="_blank" className="ProjectLinks" >
+                <div>The Halls Whisper MURDER!</div>
             </a>
             <a href="#" target="_blank" className="ProjectLinks" >
                 <div>Another One</div>

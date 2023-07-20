@@ -1,6 +1,7 @@
 [
     {
         "id": 1,
+        "tabIndex": 6,
         "logo": "/Nike.png",
         "title": "Deskside Tech",
         "company": "AXA Pro @ Stephanini (@ Nike WHQ)",
@@ -13,6 +14,7 @@
     },
     {
         "id": 2,
+        "tabIndex": 7,
         "logo": "/Legacy Health.png",
         "title": "Warehouse Tech Worker",
         "company": "TekSystems @ Legacy Health",
@@ -26,6 +28,7 @@
     },
     {
         "id": 3,
+        "tabIndex": 8,
         "logo": "/PPS.png",
         "title": "IT Support & Computer Deployment",
         "company": "TekSystems @ Portland Public Schools (OTIS)",
@@ -40,6 +43,7 @@
     },
     {
         "id": 4,
+        "tabIndex": 9,
         "logo": "/Reboot.png",
         "title": "Store Front Helpdesk",
         "company": "Reboot Computers in Salem, OR",
@@ -54,6 +58,7 @@
     },
     {
         "id": 5,
+        "tabIndex": 10,
         "logo": "/Consumer cell.png",
         "title": "Tech Support Agent",
         "company": "Consumer Cellular",
@@ -66,6 +71,7 @@
     },
     {
         "id": 6,
+        "tabIndex": 11,
         "logo": "/Supra.png",
         "company": "Supra LockBox",
         "title": "Tech Support Agent",
@@ -78,6 +84,7 @@
     },
     {
         "id": 7,
+        "tabIndex": 12,
         "logo": "/SimpliSafe.png",
         "company": "SimpliSafe",
         "title": "Tech Support Agent",
@@ -90,6 +97,7 @@
     },
     {
         "id": 8,
+        "tabIndex": 13,
         "logo": "/Apple.png",
         "company": "AppleCare",
         "title": "Tech Suport Advice",

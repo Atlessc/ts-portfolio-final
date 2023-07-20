@@ -1,0 +1,398 @@
+/* bigger computers screens */
+@media screen and (min-width: 1025px) {
+    .Certificates {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+
+    .SectionCert {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+
+    .Certs {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    .CertHeader {
+        font-size: 20px;
+        font-weight: bold;
+        margin: 20px 0;
+        text-align: center;
+    }
+
+
+
+    .Certs {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        width: 90%;
+    }
+
+    .CertCards {
+
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        border: 2px solid #87CEEB;
+        border-radius: 10px;
+        background-color: #36454F;
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        -ms-border-radius: 10px;
+        -o-border-radius: 10px;
+        text-decoration: none;
+        color: #ebd7ff;
+        font-weight: bold;
+        text-align: center;
+        width: 200px;
+        height: 110px;
+        margin: 1rem 0.5rem ;
+        padding-top: 10px;
+        box-shadow: -7px 9px 0px rgba(0, 0, 0, 1);
+    }
+
+    .CertTitle, .CertIssuer, .CertDate, .Verify{
+        margin: 0;
+    }
+
+    .CertTitle {
+        font-size: 12px;
+        font-weight: bold;
+    }
+
+    .CertIssuer {
+        font-size: 10px;
+    }
+
+    .CertDate {
+        font-size: 10px;
+    }
+
+    .Verify {
+        font-size: 15px;
+        font-weight: bold;
+        border-top: 4px solid rgb(255, 255, 255);
+        border-radius: 0 0 8px 8px;
+        width: 100%;
+        background-color: #36454F;
+        color: #ebd7ff;
+        -webkit-border-radius: 0 0 8px 8px;
+        -moz-border-radius: 0 0 8px 8px;
+        -ms-border-radius: 0 0 8px 8px;
+        -o-border-radius: 0 0 8px 8px;
+        padding-top: 7px;
+        padding-bottom: 7px;
+        bottom: 0;
+    }
+}
+
+/* small computers ❌*/
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    .Certificates {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+
+    .SectionCert {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+
+    .Certs {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    .CertHeader {
+        font-size: 20px;
+        font-weight: bold;
+        margin: 20px 0;
+        text-align: center;
+    }
+
+    .Certs {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        width: 90%;
+    }
+
+    .CertCards {
+
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        border: 2px solid rgb(0, 0, 0);
+        border-radius: 10px;
+        background-color: rgb(163, 89, 89);
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        -ms-border-radius: 10px;
+        -o-border-radius: 10px;
+        text-decoration: none;
+        color: black;
+        font-weight: bold;
+        text-align: center;
+        width: 200px;
+        height: 110px;
+        margin: 15px 0;
+        padding-top: 10px;
+    }
+
+    .CertTitle, .CertIssuer, .CertDate, .Verify{
+        margin: 0;
+    }
+
+    .CertTitle {
+        font-size: 12px;
+        font-weight: bold;
+    }
+
+    .CertIssuer {
+        font-size: 10px;
+    }
+
+    .CertDate {
+        font-size: 10px;
+    }
+
+    .Verify {
+        font-size: 15px;
+        font-weight: bold;
+        border-top: 4px solid rgb(255, 255, 255);
+        border-radius: 0 0 8px 8px;
+        width: 100%;
+        background-color: rgb(0, 0, 0);
+        color: rgb(155,155,155);
+        -webkit-border-radius: 0 0 8px 8px;
+        -moz-border-radius: 0 0 8px 8px;
+        -ms-border-radius: 0 0 8px 8px;
+        -o-border-radius: 0 0 8px 8px;
+        padding-top: 7px;
+        padding-bottom: 7px;
+        bottom: 0;
+    }
+}
+
+/* tablets ❌*/
+@media screen and (min-width: 501px) and (max-width: 768px) {
+    .Certificates {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+
+    .SectionCert {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+
+    .Certs {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    .CertHeader {
+        font-size: 20px;
+        font-weight: bold;
+        margin: 20px 0;
+        text-align: center;
+    }
+
+    .Certs {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        width: 90%;
+    }
+
+    .CertCards {
+
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        border: 2px solid rgb(0, 0, 0);
+        border-radius: 10px;
+        background-color: rgb(163, 89, 89);
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        -ms-border-radius: 10px;
+        -o-border-radius: 10px;
+        text-decoration: none;
+        color: black;
+        font-weight: bold;
+        text-align: center;
+        width: 200px;
+        height: 110px;
+        margin: 15px 0;
+        padding-top: 10px;
+    }
+
+    .CertTitle, .CertIssuer, .CertDate, .Verify{
+        margin: 0;
+    }
+
+    .CertTitle {
+        font-size: 12px;
+        font-weight: bold;
+    }
+
+    .CertIssuer {
+        font-size: 10px;
+    }
+
+    .CertDate {
+        font-size: 10px;
+    }
+
+    .Verify {
+        font-size: 15px;
+        font-weight: bold;
+        border-top: 4px solid rgb(255, 255, 255);
+        border-radius: 0 0 8px 8px;
+        width: 100%;
+        background-color: rgb(0, 0, 0);
+        color: rgb(155,155,155);
+        -webkit-border-radius: 0 0 8px 8px;
+        -moz-border-radius: 0 0 8px 8px;
+        -ms-border-radius: 0 0 8px 8px;
+        -o-border-radius: 0 0 8px 8px;
+        padding-top: 7px;
+        padding-bottom: 7px;
+        bottom: 0;
+    }
+}
+
+/* mobile  */
+@media screen and (max-width: 500px) {
+    .Certs {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    .CertHeader {
+        font-size: 20px;
+        font-weight: bold;
+        margin: 20px 0;
+        text-align: center;
+    }
+
+    .Certificates {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+
+    .Certs {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    .CertCards {
+        flex: 1 1 calc(20% - 10px);
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        border: 2px solid rgb(0, 0, 0);
+        border-radius: 10px;
+        background-color: rgb(163, 89, 89);
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        -ms-border-radius: 10px;
+        -o-border-radius: 10px;
+        text-decoration: none;
+        color: black;
+        font-weight: bold;
+        text-align: center;
+        width: 200px;
+        height: 110px;
+        margin: 15px 0;
+        padding-top: 10px;
+    }
+
+    .CertTitle, .CertIssuer, .CertDate, .Verify{
+        margin: 0;
+    }
+
+    .CertTitle {
+        width: 95%;
+        font-size: 13px;
+        font-weight: bold;
+    }
+
+    .CertIssuer {
+        font-size: 12px;
+    }
+
+    .CertDate {
+        font-size: 10px;
+    }
+
+    .Verify {
+        font-size: 10px;
+        font-weight: bold;
+        border-top: 2px solid rgb(255, 255, 255);
+        border-radius: 0 0 8px 8px;
+        width: 100%;
+        background-color: rgb(0, 0, 0);
+        color: rgb(155,155,155);
+        -webkit-border-radius: 0 0 8px 8px;
+        -moz-border-radius: 0 0 8px 8px;
+        -ms-border-radius: 0 0 8px 8px;
+        -o-border-radius: 0 0 8px 8px;
+        padding-top: 7px;
+        padding-bottom: 7px;
+        bottom: 0;
+    }
+}

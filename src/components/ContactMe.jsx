@@ -1,4 +1,5 @@
 import "./component.css";
+import "./contact.css";
 import { FooterSection } from "./footer";
 import { NavSection } from "./nav";
 

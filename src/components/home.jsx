@@ -1,4 +1,5 @@
 import "./component.css"
+import "./home.css"
 
 export function HomePage() {
     return (

@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import data from './jobs.json';
 import './component.css';
+import './XPCards.css';
 
 export const XPCards = () => {
   const [expandedCardId, setExpandedCardId] = useState(null);
@@ -10,12 +11,19 @@ export const XPCards = () => {
   };
 
   return (
+    // add aria labels using the key.id's as to which order to tab through
     <div>
       <div className="XPCardsTitle">Professional Experience</div>
     <div className="XPCards">
       {data.map(item => (
-        <div key={item.id} className={"JobCard-"+(item.id)+" JobCard"}>
-          <img src={item.logo} alt={item.company} onClick={() => handleLogoClick(item.id)} />
+        <div key={item.id} className={"JobCard-"+(item.id)+" JobCard"} onClick={() => handleLogoClick(item.id)} onKeyDown={e => {
+          if (e.key === " " || e.key === "Spacebar") {
+            // Prevent the default action to avoid scrolling the page
+            e.preventDefault();
+            handleLogoClick(item.id);
+          }
+        }} tabIndex={item.tabIndex}>
+          <img src={item.logo} alt={item.company}  />
           {expandedCardId === item.id && (
             <div className='description'>
               <p className='company'>{item.company}</p>

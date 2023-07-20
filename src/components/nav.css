@@ -1,0 +1,668 @@
+/* bigger computers screens */
+@media screen and (min-width: 1025px) {
+    .Nav {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        border: 3px solid #87CEEB;
+        background-color: #36454F;
+        padding: 0 5px;
+        min-height: 40px;
+        max-height: fit-content;
+        margin: 5px 5px 10px 5px;
+        position: sticky;
+        top: 0;
+        z-index: 10;
+        box-shadow: -4px 7px 0px rgba(0, 0, 0, 1);
+        border-radius: 10px;
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        -ms-border-radius: 10px;
+        -o-border-radius: 10px;
+    }
+
+    .LogoName {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+    }
+
+    .NavLogo {
+        width: 40px;
+        margin: 10px
+    }
+
+    .Logo {
+        color: #ebd7ff;
+        font-size: 18px;
+        font-weight: bold;
+    }
+
+    .NavButton {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .Menubutton {
+        height: 35px;
+        width: 35px;
+        font-size: 20px;
+        background-color: #36454F;
+        color: #ebd7ff;
+        border: 2px solid #87CEEB;
+        border-radius: 5px;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        -ms-border-radius: 5px;
+        -o-border-radius: 5px;
+        box-shadow: -3px 4px 0px rgba(0, 0, 0, 1);
+    }
+
+    .Menubutton:active {
+        box-shadow: none;
+        animation: ClickAnimMenu 200ms ease-in;
+        -webkit-animation: ClickAnimMenu 200ms ease-in;
+}
+
+@keyframes ClickAnimMenu {
+    0% {
+        box-shadow: -3px 4px 0px rgba(0, 0, 0, 0.6);
+        transform: translateX(0) translateY(0);
+        -webkit-transform: translateX(0) translateY(0);
+        -moz-transform: translateX(0) translateY(0);
+        -ms-transform: translateX(0) translateY(0);
+        -o-transform: translateX(0) translateY(0);
+}
+    50% {
+        box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.6);
+        transform: translateX(-4px) translateY(3px);
+        -webkit-transform: translateX(-4px) translateY(3px);
+        -moz-transform: translateX(-4px) translateY(3px);
+        -ms-transform: translateX(-4px) translateY(3px);
+        -o-transform: translateX(-4px) translateY(3px);
+}
+    100% {
+        box-shadow: -3px 4px 0px rgba(0, 0, 0, 0.6);
+        transform: translateX(0) translateY(0);
+        -webkit-transform: translateX(0) translateY(0);
+        -moz-transform: translateX(0) translateY(0);
+        -ms-transform: translateX(0) translateY(0);
+        -o-transform: translateX(0) translateY(0);
+    }
+}
+
+    .NavLinks {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        position: absolute;
+        backdrop-filter: blur(5px);
+        -webkit-backdrop-filter: blur(5px);
+        background-color: rgba(0, 0, 0, 0.5);
+        width: 100%;
+        height: 89vh;
+        top: 100%;
+        left: 0;
+    }
+
+    .NavItem {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 0 1rem;
+        cursor: pointer;
+        width: 8rem;
+        height: 2rem;
+        margin: 15px;
+        padding: 10px;
+        border: 2px solid #87CEEB;
+        border-radius: 10px;
+        text-decoration: none;
+        color: #ebd7ff;
+        font-weight: bold;
+        font-size: 1.3rem;
+        background-color: #36454F;
+        box-shadow: -3px 4px 0px rgba(0, 0, 0, 1);
+    }
+
+    .NavItem:active {
+        animation: ClickAnimNav 200ms ease-in;
+        -webkit-animation: ClickAnimNav 200ms ease-in;
+}
+
+@keyframes ClickAnimNav {
+    0% {
+        box-shadow: -3px 4px 0px rgba(0, 0, 0, 1);
+        transform: translateX(0) translateY(0);
+        -webkit-transform: translateX(0) translateY(0);
+        -moz-transform: translateX(0) translateY(0);
+        -ms-transform: translateX(0) translateY(0);
+        -o-transform: translateX(0) translateY(0);
+}
+    50% {
+        box-shadow: 0px 0px 0px rgba(0, 0, 0, 1);
+        transform: translateX(-4px) translateY(3px);
+        -webkit-transform: translateX(-4px) translateY(3px);
+        -moz-transform: translateX(-4px) translateY(3px);
+        -ms-transform: translateX(-4px) translateY(3px);
+        -o-transform: translateX(-4px) translateY(3px);
+}
+    100% {
+        box-shadow: -3px 4px 0px rgba(0, 0, 0, 0.6);
+        transform: translateX(0) translateY(0);
+        -webkit-transform: translateX(0) translateY(0);
+        -moz-transform: translateX(0) translateY(0);
+        -ms-transform: translateX(0) translateY(0);
+        -o-transform: translateX(0) translateY(0);
+    }
+}
+}
+
+/* small computers ❌*/
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    .Nav {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        border: 3px solid rgb(0, 0, 0);
+        background-color: rgb(155,155,155);
+        padding: 0 5px;
+        min-height: 40px;
+        max-height: fit-content;
+        margin: 5px 5px 10px 5px;
+        position: sticky;
+        top: 0;
+        z-index: 10;
+        box-shadow: -5px 7px 0px rgba(0, 0, 0, 0.6);
+        border-radius: 10px;
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        -ms-border-radius: 10px;
+        -o-border-radius: 10px;
+    }
+
+    .LogoName {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+    }
+
+    .NavLogo {
+        width: 40px;
+        margin: 10px
+    }
+
+    .Logo {
+        color: black;
+        font-size: 18px;
+        font-weight: bold;
+    }
+
+    .NavButton {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .Menubutton {
+        height: 35px;
+        width: 35px;
+        font-size: 20px;
+        background-color: rgb(163, 89, 89);
+        color: rgba(0, 0, 0, 1);
+        border: 2px solid black;
+        border-radius: 5px;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        -ms-border-radius: 5px;
+        -o-border-radius: 5px;
+        box-shadow: -3px 4px 0px rgba(0, 0, 0, 0.6);
+    }
+
+    .Menubutton:active {
+        box-shadow: none;
+        animation: ClickAnimMenu 200ms ease-in;
+        -webkit-animation: ClickAnimMenu 200ms ease-in;
+}
+
+@keyframes ClickAnimMenu {
+    0% {
+        box-shadow: -3px 4px 0px rgba(0, 0, 0, 0.6);
+        transform: translateX(0) translateY(0);
+        -webkit-transform: translateX(0) translateY(0);
+        -moz-transform: translateX(0) translateY(0);
+        -ms-transform: translateX(0) translateY(0);
+        -o-transform: translateX(0) translateY(0);
+}
+    50% {
+        box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.6);
+        transform: translateX(-4px) translateY(3px);
+        -webkit-transform: translateX(-4px) translateY(3px);
+        -moz-transform: translateX(-4px) translateY(3px);
+        -ms-transform: translateX(-4px) translateY(3px);
+        -o-transform: translateX(-4px) translateY(3px);
+}
+    100% {
+        box-shadow: -3px 4px 0px rgba(0, 0, 0, 0.6);
+        transform: translateX(0) translateY(0);
+        -webkit-transform: translateX(0) translateY(0);
+        -moz-transform: translateX(0) translateY(0);
+        -ms-transform: translateX(0) translateY(0);
+        -o-transform: translateX(0) translateY(0);
+    }
+}
+
+    .NavLinks {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        position: absolute;
+        backdrop-filter: blur(5px);
+        -webkit-backdrop-filter: blur(5px);
+        background-color: rgba(0, 0, 0, 0.5);
+        width: 100%;
+        height: 89vh;
+        top: 100%;
+        left: 0;
+    }
+
+    .NavItem {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 0 1rem;
+        cursor: pointer;
+        width: 100px;
+        height: auto;
+        margin: 15px;
+        padding: 10px;
+        border: 2px solid rgb(0, 0, 0);
+        border-radius: 10px;
+        text-decoration: none;
+        color: rgb(0, 0, 0);
+        font-weight: bold;
+        font-size: 18px;
+        background-color: rgb(163, 89, 89);
+        box-shadow: -3px 4px 0px rgba(0, 0, 0, 0.6);
+    }
+
+    .NavItem:active {
+        animation: ClickAnimNav 200ms ease-in;
+        -webkit-animation: ClickAnimNav 200ms ease-in;
+}
+
+@keyframes ClickAnimNav {
+    0% {
+        box-shadow: -3px 4px 0px rgba(0, 0, 0, 0.6);
+        transform: translateX(0) translateY(0);
+        -webkit-transform: translateX(0) translateY(0);
+        -moz-transform: translateX(0) translateY(0);
+        -ms-transform: translateX(0) translateY(0);
+        -o-transform: translateX(0) translateY(0);
+}
+    50% {
+        box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.6);
+        transform: translateX(-4px) translateY(3px);
+        -webkit-transform: translateX(-4px) translateY(3px);
+        -moz-transform: translateX(-4px) translateY(3px);
+        -ms-transform: translateX(-4px) translateY(3px);
+        -o-transform: translateX(-4px) translateY(3px);
+}
+    100% {
+        box-shadow: -3px 4px 0px rgba(0, 0, 0, 0.6);
+        transform: translateX(0) translateY(0);
+        -webkit-transform: translateX(0) translateY(0);
+        -moz-transform: translateX(0) translateY(0);
+        -ms-transform: translateX(0) translateY(0);
+        -o-transform: translateX(0) translateY(0);
+    }
+}
+}
+
+/* tablets ❌*/
+@media screen and (min-width: 501px) and (max-width: 768px) {
+    .Nav {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        border: 3px solid rgb(0, 0, 0);
+        background-color: rgb(155,155,155);
+        padding: 0 5px;
+        min-height: 40px;
+        max-height: fit-content;
+        margin: 5px 5px 10px 5px;
+        position: sticky;
+        top: 0;
+        z-index: 10;
+        box-shadow: -5px 7px 0px rgba(0, 0, 0, 0.6);
+        border-radius: 10px;
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        -ms-border-radius: 10px;
+        -o-border-radius: 10px;
+    }
+
+    .LogoName {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+    }
+
+    .NavLogo {
+        width: 40px;
+        margin: 10px
+    }
+
+    .Logo {
+        color: black;
+        font-size: 18px;
+        font-weight: bold;
+    }
+
+    .NavButton {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .Menubutton {
+        height: 35px;
+        width: 35px;
+        font-size: 20px;
+        background-color: rgb(163, 89, 89);
+        color: rgba(0, 0, 0, 1);
+        border: 2px solid black;
+        border-radius: 5px;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        -ms-border-radius: 5px;
+        -o-border-radius: 5px;
+        box-shadow: -3px 4px 0px rgba(0, 0, 0, 0.6);
+    }
+
+    .Menubutton:active {
+        box-shadow: none;
+        animation: ClickAnimMenu 200ms ease-in;
+        -webkit-animation: ClickAnimMenu 200ms ease-in;
+}
+
+@keyframes ClickAnimMenu {
+    0% {
+        box-shadow: -3px 4px 0px rgba(0, 0, 0, 0.6);
+        transform: translateX(0) translateY(0);
+        -webkit-transform: translateX(0) translateY(0);
+        -moz-transform: translateX(0) translateY(0);
+        -ms-transform: translateX(0) translateY(0);
+        -o-transform: translateX(0) translateY(0);
+}
+    50% {
+        box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.6);
+        transform: translateX(-4px) translateY(3px);
+        -webkit-transform: translateX(-4px) translateY(3px);
+        -moz-transform: translateX(-4px) translateY(3px);
+        -ms-transform: translateX(-4px) translateY(3px);
+        -o-transform: translateX(-4px) translateY(3px);
+}
+    100% {
+        box-shadow: -3px 4px 0px rgba(0, 0, 0, 0.6);
+        transform: translateX(0) translateY(0);
+        -webkit-transform: translateX(0) translateY(0);
+        -moz-transform: translateX(0) translateY(0);
+        -ms-transform: translateX(0) translateY(0);
+        -o-transform: translateX(0) translateY(0);
+    }
+}
+
+    .NavLinks {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        position: absolute;
+        backdrop-filter: blur(5px);
+        -webkit-backdrop-filter: blur(5px);
+        background-color: rgba(0, 0, 0, 0.5);
+        width: 100%;
+        height: 89vh;
+        top: 100%;
+        left: 0;
+    }
+
+    .NavItem {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 0 1rem;
+        cursor: pointer;
+        width: 100px;
+        height: auto;
+        margin: 15px;
+        padding: 10px;
+        border: 2px solid rgb(0, 0, 0);
+        border-radius: 10px;
+        text-decoration: none;
+        color: rgb(0, 0, 0);
+        font-weight: bold;
+        font-size: 18px;
+        background-color: rgb(163, 89, 89);
+        box-shadow: -3px 4px 0px rgba(0, 0, 0, 0.6);
+    }
+
+    .NavItem:active {
+        animation: ClickAnimNav 200ms ease-in;
+        -webkit-animation: ClickAnimNav 200ms ease-in;
+}
+
+@keyframes ClickAnimNav {
+    0% {
+        box-shadow: -3px 4px 0px rgba(0, 0, 0, 0.6);
+        transform: translateX(0) translateY(0);
+        -webkit-transform: translateX(0) translateY(0);
+        -moz-transform: translateX(0) translateY(0);
+        -ms-transform: translateX(0) translateY(0);
+        -o-transform: translateX(0) translateY(0);
+}
+    50% {
+        box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.6);
+        transform: translateX(-4px) translateY(3px);
+        -webkit-transform: translateX(-4px) translateY(3px);
+        -moz-transform: translateX(-4px) translateY(3px);
+        -ms-transform: translateX(-4px) translateY(3px);
+        -o-transform: translateX(-4px) translateY(3px);
+}
+    100% {
+        box-shadow: -3px 4px 0px rgba(0, 0, 0, 0.6);
+        transform: translateX(0) translateY(0);
+        -webkit-transform: translateX(0) translateY(0);
+        -moz-transform: translateX(0) translateY(0);
+        -ms-transform: translateX(0) translateY(0);
+        -o-transform: translateX(0) translateY(0);
+    }
+}
+}
+
+/* mobile  */
+@media screen and (max-width: 500px) {
+    .Nav {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        border: 3px solid rgb(0, 0, 0);
+        background-color: rgb(155,155,155);
+        padding: 0 5px;
+        min-height: 40px;
+        max-height: fit-content;
+        margin: 5px 5px 10px 5px;
+        position: sticky;
+        top: 0;
+        z-index: 10;
+        box-shadow: -5px 7px 0px rgba(0, 0, 0, 0.6);
+        border-radius: 10px;
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        -ms-border-radius: 10px;
+        -o-border-radius: 10px;
+    }
+
+    .LogoName {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+    }
+
+    .NavLogo {
+        width: 40px;
+        margin: 10px
+    }
+
+    .Logo {
+        color: black;
+        font-size: 18px;
+        font-weight: bold;
+    }
+
+    .NavButton {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .Menubutton {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 35px;
+        width: 35px;
+        font-size: 25px;
+        padding: 0 0 3px 0;
+        background-color: rgb(163, 89, 89);
+        color: rgba(0, 0, 0, 1);
+        border: 2px solid black;
+        border-radius: 5px;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        -ms-border-radius: 5px;
+        -o-border-radius: 5px;
+        box-shadow: -3px 4px 0px rgba(0, 0, 0, 0.6);
+}
+
+    .Menubutton:active {
+        box-shadow: none;
+        animation: ClickAnimMenu 200ms ease-in;
+        -webkit-animation: ClickAnimMenu 200ms ease-in;
+}
+
+@keyframes ClickAnimMenu {
+    0% {
+        box-shadow: -3px 4px 0px rgba(0, 0, 0, 0.6);
+        transform: translateX(0) translateY(0);
+        -webkit-transform: translateX(0) translateY(0);
+        -moz-transform: translateX(0) translateY(0);
+        -ms-transform: translateX(0) translateY(0);
+        -o-transform: translateX(0) translateY(0);
+}
+    50% {
+        box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.6);
+        transform: translateX(-4px) translateY(3px);
+        -webkit-transform: translateX(-4px) translateY(3px);
+        -moz-transform: translateX(-4px) translateY(3px);
+        -ms-transform: translateX(-4px) translateY(3px);
+        -o-transform: translateX(-4px) translateY(3px);
+}
+    100% {
+        box-shadow: -3px 4px 0px rgba(0, 0, 0, 0.6);
+        transform: translateX(0) translateY(0);
+        -webkit-transform: translateX(0) translateY(0);
+        -moz-transform: translateX(0) translateY(0);
+        -ms-transform: translateX(0) translateY(0);
+        -o-transform: translateX(0) translateY(0);
+    }
+}
+
+    .NavLinks {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        position: absolute;
+        backdrop-filter: blur(5px);
+        -webkit-backdrop-filter: blur(5px);
+        background-color: rgba(0, 0, 0, 0.5);
+        width: 100%;
+        height: 80vh;
+        top: 100%;
+        left: 0;
+    }
+
+    .NavItem {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 0 1rem;
+        cursor: pointer;
+        width: 100px;
+        height: auto;
+        margin: 15px;
+        padding: 10px;
+        border: 2px solid rgb(0, 0, 0);
+        border-radius: 10px;
+        text-decoration: none;
+        color: rgb(0, 0, 0);
+        font-weight: bold;
+        font-size: 18px;
+        background-color: rgb(163, 89, 89);
+        box-shadow: -3px 4px 0px rgba(0, 0, 0, 0.6);
+    }
+
+    .NavItem:active {
+        animation: ClickAnimNav 200ms ease-in;
+        -webkit-animation: ClickAnimNav 200ms ease-in;
+}
+
+@keyframes ClickAnimNav {
+    0% {
+        box-shadow: -3px 4px 0px rgba(0, 0, 0, 0.6);
+        transform: translateX(0) translateY(0);
+        -webkit-transform: translateX(0) translateY(0);
+        -moz-transform: translateX(0) translateY(0);
+        -ms-transform: translateX(0) translateY(0);
+        -o-transform: translateX(0) translateY(0);
+}
+    50% {
+        box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.6);
+        transform: translateX(-4px) translateY(3px);
+        -webkit-transform: translateX(-4px) translateY(3px);
+        -moz-transform: translateX(-4px) translateY(3px);
+        -ms-transform: translateX(-4px) translateY(3px);
+        -o-transform: translateX(-4px) translateY(3px);
+}
+    100% {
+        box-shadow: -3px 4px 0px rgba(0, 0, 0, 0.6);
+        transform: translateX(0) translateY(0);
+        -webkit-transform: translateX(0) translateY(0);
+        -moz-transform: translateX(0) translateY(0);
+        -ms-transform: translateX(0) translateY(0);
+        -o-transform: translateX(0) translateY(0);
+    }
+}
+}

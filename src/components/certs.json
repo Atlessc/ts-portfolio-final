@@ -1,6 +1,7 @@
 [
       {
         "id": 1,
+        "tabIndex": 14,
         "title": "Full-Stack Developer Certificate",
         "date": "2023",
         "issuer": "LinkedIn Learning",
@@ -8,6 +9,7 @@
       },
       {
         "id": 2,
+        "tabIndex": 15,
         "title": "ChatGPT: Supercharge Your Work & Life",
         "date": "2023",
         "issuer":"Udemy",
@@ -15,6 +17,7 @@
       },
       {
         "id": 3,
+        "tabIndex": 16,
         "title": "Master Prompt Engineering with ChatGPT",
         "date": "2023",
         "issuer":"Udemy",
@@ -22,6 +25,7 @@
       },
       {
         "id": 4,
+        "tabIndex": 17,
         "title": "NexThink Infinity Fundamentals",
         "date": "2023",
         "issuer":"NexThink",
@@ -29,6 +33,7 @@
       },
       {
         "id": 5,
+        "tabIndex": 18,
         "title": "Responsive Web Design Certificate",
         "date": "2023",
         "issuer":"FreeCodeCamp",
@@ -36,6 +41,7 @@
       },
       {
         "id": 6,
+        "tabIndex": 19,
         "title": "CSS Certificate",
         "date": "2022",
         "issuer":"SoloLearn",
@@ -43,6 +49,7 @@
       },
       {
         "id": 7,
+        "tabIndex": 20,
         "title": "JavaScript Certificate",
         "date": "2022",
         "issuer":"SoloLearn",
@@ -50,6 +57,7 @@
       },
       {
         "id": 8,
+        "tabIndex": 21,
         "title": "React + Redux Certificate",
         "date": "2022",
         "issuer":"SoloLearn",
@@ -57,6 +65,7 @@
       },
       {
         "id": 9,
+        "tabIndex": 22,
         "title": "Responsive Web Design Certificate",
         "date": "2022",
         "issuer":"SoloLearn",
@@ -64,6 +73,7 @@
       },
       {
         "id": 10,
+        "tabIndex": 23,
         "title": "Web Development Fundamentals Certificate",
         "date": "2022",
         "issuer":"SoloLearn",

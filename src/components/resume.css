@@ -1,0 +1,123 @@
+/* bigger computers screens */
+@media screen and (min-width: 1025px) {
+    .Resume {
+        border: 2px solid #87CEEB;
+        background-color: #36454F;
+        color: #ebd7ff;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: fit-content;
+        padding: 15px 25px;
+        margin: 15px;
+        box-shadow: -5px 11px 0px rgba(0, 0, 0, 1);
+        border-radius: 10px;
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        -ms-border-radius: 10px;
+        -o-border-radius: 10px;
+    }
+
+    .ResumeHeader {
+        font-size: 2.5rem;
+        font-weight: bold;
+        margin-bottom: 1.5rem;
+        text-align: center;
+    }
+
+    .AspireQuote {
+        width: 80%;
+        font-size: 1.2rem;
+        text-align: center;
+    }
+
+
+}
+
+/* small computers ❌*/
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    .Resume {
+        border: 2px solid rgb(0, 0, 0);
+        background-color: rgb(155,155,155);
+        color: black;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: fit-content;
+        padding: 15px 25px;
+        margin: 15px;
+        box-shadow: -5px 7px 0px rgba(0, 0, 0, 0.6);
+        border-radius: 10px;
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        -ms-border-radius: 10px;
+        -o-border-radius: 10px;
+    }
+
+    .ResumeHeader {
+        font-size: 25px;
+        font-weight: bold;
+        margin-bottom: 15px;
+        text-align: center;
+    }
+}
+
+/* tablets ❌*/
+@media screen and (min-width: 501px) and (max-width: 768px) {
+    .Resume {
+        border: 2px solid rgb(0, 0, 0);
+        background-color: rgb(155,155,155);
+        color: black;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: fit-content;
+        padding: 15px 25px;
+        margin: 15px;
+        box-shadow: -5px 7px 0px rgba(0, 0, 0, 0.6);
+        border-radius: 10px;
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        -ms-border-radius: 10px;
+        -o-border-radius: 10px;
+    }
+
+    .ResumeHeader {
+        font-size: 25px;
+        font-weight: bold;
+        margin-bottom: 15px;
+        text-align: center;
+    }
+}
+
+/* mobile  */
+@media screen and (max-width: 500px) {
+    .Resume {
+        border: 2px solid rgb(0, 0, 0);
+        background-color: rgb(155,155,155);
+        color: black;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: fit-content;
+        padding: 15px 25px;
+        margin: 15px;
+        box-shadow: -5px 7px 0px rgba(0, 0, 0, 0.6);
+        border-radius: 10px;
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        -ms-border-radius: 10px;
+        -o-border-radius: 10px;
+    }
+
+    .ResumeHeader {
+        font-size: 25px;
+        font-weight: bold;
+        margin-bottom: 15px;
+        text-align: center;
+    }
+}
