@@ -8,6 +8,7 @@
   gtag('js', new Date());
 
   gtag('config', 'G-T1DBED2YYX');
+  
 </script>
     <meta charset="UTF-8" />
     <meta name="keywords" content="Web development, Portfolio, Website design, Front-end development, Back-end development, Full-stack development, HTML, CSS, JavaScript, Responsive design, User experience, User interface, Web design, Web applications, Mobile development, E-commerce, Content management systems, WordPress, React, Angular"/>
@@ -23,5 +24,42 @@
   <body>
     <div id="root"></div>
     <script type="module" src="/src/main.jsx"></script>
+    <script>
+      (function(){
+          var s    = document.createElement('script');
+          var h    = document.querySelector('head') || document.body;
+          s.src    = 'https://acsbapp.com/apps/app/dist/js/app.js';
+          s.async  = true;
+          s.onload = function(){
+              acsbJS.init({
+                  statementLink    : '',
+                  footerHtml       : '',
+                  hideMobile       : false,
+                  hideTrigger      : false,
+                  disableBgProcess : false,
+                  language         : 'en',
+                  position         : 'right',
+                  leadColor        : '#631717',
+                  triggerColor     : '#0066ff',
+                  triggerRadius    : '10px',
+                  triggerPositionX : 'right',
+                  triggerPositionY : 'bottom',
+                  triggerIcon      : 'people',
+                  triggerSize      : 'medium',
+                  triggerOffsetX   : 20,
+                  triggerOffsetY   : 20,
+                  mobile           : {
+                      triggerSize      : 'small',
+                      triggerPositionX : 'right',
+                      triggerPositionY : 'bottom',
+                      triggerOffsetX   : 10,
+                      triggerOffsetY   : 10,
+                      triggerRadius    : '50%'
+                  }
+              });
+          };
+          h.appendChild(s);
+      })();
+  </script>
   </body>
 </html>

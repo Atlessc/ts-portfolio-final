@@ -18,9 +18,10 @@ export function NavSection() {
     return (
         <div className="Nav">
             <div className="LogoName">
-            <img src={Img} className="NavLogo"/>
+            <img alt="Tyler Smith's Resume" src={Img} className="NavLogo"/>
             <div className="Logo">Tyler Smith's Resume</div>
             </div>
+            <button className="Menubutton" onClick={toggleNav}>☰</button>
 
             <div className="NavButton">
                 {
@@ -34,7 +35,7 @@ export function NavSection() {
                 :
                 null
                 }
-                <button className="Menubutton" onClick={toggleNav}>☰</button>
+                
             </div>
         </div>
     )
