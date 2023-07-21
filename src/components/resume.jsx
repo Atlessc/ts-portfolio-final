@@ -1,5 +1,6 @@
 import "./component.css"
 import "./resume.css"
+import "./XPCards.css"
 import { FooterSection } from "./footer"
 import { NavSection } from "./nav"
 import { XPCards } from "./XPCards"
