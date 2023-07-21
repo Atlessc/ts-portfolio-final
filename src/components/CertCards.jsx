@@ -1,7 +1,7 @@
-import React, { useState } from 'react';
+import React from 'react';
 import data from './certs.json';
 import './component.css';
-import './CertCards.css';
+import './certs.css';
 
 export const CertCards = () => {
 
