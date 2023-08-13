@@ -19,8 +19,8 @@ export default function ProjectsPage() {
             <a href="https://the-halls-whisper-murder.vercel.app/" target="_blank" className="ProjectLinks" >
                 <div>The Halls Whisper MURDER!</div>
             </a>
-            <a href="#" target="_blank" className="ProjectLinks" >
-                <div>Another One</div>
+            <a href="https://web54-spacial-design-idea.vercel.app/" target="_blank" className="ProjectLinks" >
+                <div>Spacial Design Experience</div>
             </a>
             <a href="#" target="_blank" className="ProjectLinks" >
                 <div>Another One</div>
