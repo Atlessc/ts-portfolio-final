@@ -1,10 +1,8 @@
 #root {
     display: flex;
     flex-direction: column;
-    height: max-content, 100vh;
-    background-color: rgb(202, 202, 202);
-    margin: -10px;
-    display: flex;
+    justify-content: center;
     align-items: center;
+    height: max-content, 100vh;
     width: max-content, 100vw;
 }

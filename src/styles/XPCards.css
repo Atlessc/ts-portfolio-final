@@ -1,3 +1,39 @@
+.JobCard-Nike {
+    cursor: pointer;
+}
+
+.JobCard-Legacy {
+    cursor: pointer;
+}
+
+.JobCard-PPS {
+    cursor: pointer;
+}
+
+.JobCard-Reboot {
+    cursor: pointer;
+}
+
+.JobCard-ConsumerCell {
+    cursor: pointer;
+}
+
+.JobCard-Supra {
+    cursor: pointer;
+}
+
+.JobCard-SimpliSafe {
+    cursor: pointer;
+}
+
+.JobCard-Apple {
+    cursor: pointer;
+}
+
+.JobCard-Adidas {
+    cursor: pointer;
+}
+
 /* bigger computers screens */
 @media screen and (min-width: 1025px) {
     .XPCardsTitle {
@@ -20,9 +56,11 @@
 
     .JobCard {
         display: flex;
-        flex: 1 1 calc(20% - 10px);
+        flex: 1 1 calc(40% - 10px);
         flex-direction: column;
-        justify-content: center;
+        justify-content: flex-start;
+        overflow: scroll;
+        max-height: 260px;
         align-items: center;
         border: 2px solid #87CEEB;
         background-color: #36454F;
@@ -40,38 +78,42 @@
         -o-border-radius: 10px;
     }
 
-    .JobCard-1 img {
+    .JobCard-Nike img {
         width: 154px;
     }
 
-    .JobCard-2 img {
+    .JobCard-Legacy img {
         width: 186px;
     }
 
-    .JobCard-3 img {
+    .JobCard-PPS img {
         width: 63px;
     }
 
-    .JobCard-4 img {
+    .JobCard-Reboot img {
         width: 200px;
         margin-top: 6px;
     }
 
-    .JobCard-5 img {
+    .JobCard-ConsumerCell img {
         width: 150px;
     }
 
-    .JobCard-6 img {
+    .JobCard-Supra img {
         width: 130px;
     }
 
-    .JobCard-7 img {
+    .JobCard-SimpliSafe img {
         width: 220px;
         margin: 19px 0 10px 0;
     }
 
-    .JobCard-8 img {
+    .JobCard-Apple img {
         width: 80px;
+    }
+
+    .JobCard-Adidas img {
+        width: 81px;
     }
 
     .description {
@@ -93,13 +135,13 @@
     }
 }
 
-/* small computers ❌*/
+/* small computers */
 @media screen and (min-width: 769px) and (max-width: 1024px) {
     .XPCardsTitle {
         font-size: 20px;
         font-weight: bold;
         text-align: center;
-        color: rgb(0, 0, 0);
+        color: #ebd7ff;
         margin: 30px 0;
     }
 
@@ -117,14 +159,15 @@
         display: flex;
         flex: 1 1 calc(20% - 10px);
         flex-direction: column;
-        justify-content: center;
+        justify-content: flex-start;
         align-items: center;
-        border: 2px solid rgb(77, 42, 42);
-        background-color: rgb(163, 89, 89);
-        color: black;
+        border: 2px solid #87CEEB;
+        background-color: #36454F;
+        color: #ebd7ff;
         max-width: 255px;
         min-height: 80px;
         min-width: 236px;
+        max-height: 260px;
         padding: 15px 10px 10px 10px;
         margin: 15px;
         box-shadow: -5px 7px 0px rgba(0, 0, 0, 0.6);
@@ -133,40 +176,45 @@
         -moz-border-radius: 10px;
         -ms-border-radius: 10px;
         -o-border-radius: 10px;
+        overflow: scroll;
     }
 
-    .JobCard-1 img {
+    .JobCard-Nike img {
         width: 154px;
     }
 
-    .JobCard-2 img {
+    .JobCard-Legacy img {
         width: 186px;
     }
 
-    .JobCard-3 img {
+    .JobCard-PPS img {
         width: 63px;
     }
 
-    .JobCard-4 img {
+    .JobCard-Reboot img {
         width: 200px;
         margin-top: 6px;
     }
 
-    .JobCard-5 img {
+    .JobCard-ConsumerCell img {
         width: 150px;
     }
 
-    .JobCard-6 img {
+    .JobCard-Supra img {
         width: 130px;
     }
 
-    .JobCard-7 img {
+    .JobCard-SimpliSafe img {
         width: 220px;
         margin: 19px 0 10px 0;
     }
 
-    .JobCard-8 img {
+    .JobCard-Apple img {
         width: 80px;
+    }
+
+    .JobCard-Adidas img {
+        width: 81px;
     }
 
     .description {
@@ -188,13 +236,13 @@
     }
 }
 
-/* tablets ❌*/
+/* tablets */
 @media screen and (min-width: 501px) and (max-width: 768px) {
     .XPCardsTitle {
         font-size: 20px;
         font-weight: bold;
         text-align: center;
-        color: rgb(0, 0, 0);
+        color: #ebd7ff;
         margin: 30px 0;
     }
 
@@ -212,14 +260,15 @@
         display: flex;
         flex: 1 1 calc(20% - 10px);
         flex-direction: column;
-        justify-content: center;
+        justify-content: flex-start;
         align-items: center;
-        border: 2px solid rgb(77, 42, 42);
-        background-color: rgb(163, 89, 89);
-        color: black;
+        border: 2px solid #87CEEB;
+        background-color: #36454F;
+        color: #ebd7ff;
         max-width: 255px;
         min-height: 80px;
         min-width: 236px;
+        max-height: 260px;
         padding: 15px 10px 10px 10px;
         margin: 15px;
         box-shadow: -5px 7px 0px rgba(0, 0, 0, 0.6);
@@ -228,40 +277,45 @@
         -moz-border-radius: 10px;
         -ms-border-radius: 10px;
         -o-border-radius: 10px;
+        overflow: scroll;
     }
 
-    .JobCard-1 img {
+    .JobCard-Nike img {
         width: 154px;
     }
 
-    .JobCard-2 img {
+    .JobCard-Legacy img {
         width: 186px;
     }
 
-    .JobCard-3 img {
+    .JobCard-PPS img {
         width: 63px;
     }
 
-    .JobCard-4 img {
+    .JobCard-Reboot img {
         width: 200px;
         margin-top: 6px;
     }
 
-    .JobCard-5 img {
+    .JobCard-ConsumerCell img {
         width: 150px;
     }
 
-    .JobCard-6 img {
+    .JobCard-Supra img {
         width: 130px;
     }
 
-    .JobCard-7 img {
+    .JobCard-SimpliSafe img {
         width: 220px;
         margin: 19px 0 10px 0;
     }
 
-    .JobCard-8 img {
+    .JobCard-Apple img {
         width: 80px;
+    }
+
+    .JobCard-Adidas img {
+        width: 81px;
     }
 
     .description {
@@ -289,7 +343,7 @@
         font-size: 20px;
         font-weight: bold;
         text-align: center;
-        color: rgb(0, 0, 0);
+        color: #ebd7ff;
         margin: 30px 0;
     }
 
@@ -309,9 +363,9 @@
         flex-direction: column;
         justify-content: flex-start;
         align-items: center;
-        border: 2px solid rgb(77, 42, 42);
-        background-color: rgb(163, 89, 89);
-        color: black;
+        border: 2px solid #87CEEB;
+        background-color: #36454F;
+        color: #ebd7ff;
         max-width: 255px;
         min-height: 80px;
         min-width: 236px;
@@ -327,38 +381,47 @@
         overflow: scroll;
     }
 
-    .JobCard-1 img {
+    .JobCard-Nike img {
         width: 154px;
     }
 
-    .JobCard-2 img {
+    .JobCard-Legacy img {
         width: 186px;
     }
 
-    .JobCard-3 img {
+    .JobCard-PPS img {
         width: 63px;
     }
 
-    .JobCard-4 img {
+    .JobCard-Reboot img {
         width: 200px;
         margin-top: 6px;
     }
 
-    .JobCard-5 img {
+    .JobCard-ConsumerCell img {
         width: 150px;
     }
 
-    .JobCard-6 img {
+    .JobCard-Supra img {
         width: 130px;
     }
 
-    .JobCard-7 img {
+    .JobCard-SimpliSafe img {
         width: 220px;
         margin: 19px 0 10px 0;
     }
 
-    .JobCard-8 img {
+    .JobCard-Apple img {
         width: 80px;
+    }
+
+    .JobCard-Adidas img {
+        width: 81px;
+    }
+
+    .description {
+        text-align: center;
+        width: 90%;
     }
 
     .company {

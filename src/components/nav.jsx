@@ -1,5 +1,5 @@
-import "./component.css"
-import "./nav.css"
+import "../styles/component.css"
+import "../styles/nav.css"
 import { Link } from "react-router-dom"
 import { useState } from "react"
 

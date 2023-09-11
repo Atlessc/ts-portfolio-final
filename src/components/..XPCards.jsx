@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import "./component.css"
+import "../styles/component.css"
 import job from "/src/components/jobs.json"
 
 

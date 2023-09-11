@@ -1,111 +1,139 @@
 [
-    {
-        "id": 1,
-        "tabIndex": 6,
-        "logo": "/Nike.png",
-        "title": "Deskside Tech",
-        "company": "AXA Pro @ Stephanini (@ Nike WHQ)",
-        "date": "May 2022 - May 2023",
-        "duties": [
-            "Provided expert deskside support to Nike employees at the World Head Quarters, troubleshooting and resolving complex technical issues related to hardware, software, and networking in a timely and efficient manner.",
-            "Collaborated with other IT support teams to identify and escalate issues, ensuring swift resolution and minimal impact to employee productivity.",
-            "Demonstrated advanced knowledge of Windows and macOS operating systems, as well as a variety of hardware, software, and networking technologies."
-        ]
-    },
-    {
-        "id": 2,
-        "tabIndex": 7,
-        "logo": "/Legacy Health.png",
-        "title": "Warehouse Tech Worker",
-        "company": "TekSystems @ Legacy Health",
-        "date": "Nov 2021 - May 2022",
-        "duties": [
-            "Supported customers dealing with consumer electronics issues via break/fix services.",
-            "Made sure repairs were scheduled and completed in a timely fashion.",
-            "Created an SOP for the owner to help create clear guidelines expected from future employees.",
-            "Built rapport with customers, creating repeat service."
-        ]
-    },
-    {
-        "id": 3,
-        "tabIndex": 8,
-        "logo": "/PPS.png",
-        "title": "IT Support & Computer Deployment",
-        "company": "TekSystems @ Portland Public Schools (OTIS)",
-        "date": "Jul 2021 - Nov 2021",
-        "duties": [
-            "Supported Parents and Teachers dealing with Account issues using ZenDesk Tickets system.",
-            "Deployed around 150+ New and used Computers in schools, upgrading internal hardware (RAM, and GPUs) and troubleshooting hardware and software problems during the process before the project deadline.",
-            "Reimaged Windows PCs from Windows 7 to 10",
-            "Worked on plans for Teacher Policies in Windows Active Directory and Google Identity Services for Chrome extension force installs.",
-            "Performed cable management for existing computer setups for uniformity and quick access to asset tags for logging what hardware is in what location in an excel spreadsheet."
-        ]
-    },
-    {
-        "id": 4,
-        "tabIndex": 9,
-        "logo": "/Reboot.png",
-        "title": "Store Front Helpdesk",
-        "company": "Reboot Computers in Salem, OR",
-        "date": "Sep 2020 - Nov 2020",
-        "duties": [
-            "Supported customers dealing with consumer electronics issues via break/fix services.",
-            "Made sure repairs were scheduled and completed in a timely fashion.",
-            "Created an SOP for the owner to help create clear guidelines expected from future employees.",
-            "Built rapport with customers, creating repeat service.",
-            "Provided light technical support for phone and computer troubles such as Connectivity troubleshooting, app installation and resetting, factory resetting, and iCloud/Google services account troubleshooting."
-        ]
-    },
-    {
-        "id": 5,
-        "tabIndex": 10,
-        "logo": "/Consumer cell.png",
-        "title": "Tech Support Agent",
-        "company": "Consumer Cellular",
-        "date": "Jan 2020 - Sep 2020",
-        "duties": [
-            "Assisted customers with their cellular hardware and software issues such as Connectivity troubleshooting, app installation, and resetting, factory resetting, and iCloud/Google services account troubleshooting.",
-            "Used empathy, effective listening skills, and attention to detail to assist customers with billing issues.",
-            "Worked hard to establish rapport with customers, resulting in a more positive experience."
-        ]
-    },
-    {
-        "id": 6,
-        "tabIndex": 11,
-        "logo": "/Supra.png",
-        "company": "Supra LockBox",
-        "title": "Tech Support Agent",
-        "date": "Apr 2019 - Aug 2019",
-        "duties": [
-            "Built knowledge of Information Technology Solutions to support customer's needs",
-            "Assisted with billing issues, leading to quick resolution and customer satisfaction.",
-            "Assisted customers with technical issues with Real Estate specific apps (iOS and Android) and handheld devices."
-        ]
-    },
-    {
-        "id": 7,
-        "tabIndex": 12,
-        "logo": "/SimpliSafe.png",
-        "company": "SimpliSafe",
-        "title": "Tech Support Agent",
-        "date": "Oct 2018 - Feb 2019",
-        "duties": [
-            "Provided direct customer support on SimpliSafe products.",
-            "Assisted customers with purchases and technical support with SimpliSafe products.",
-            "Assisted troubleshooting connectivity issues and app issues plus teaching customers on how to use."
-        ]
-    },
-    {
-        "id": 8,
-        "tabIndex": 13,
-        "logo": "/Apple.png",
-        "company": "AppleCare",
-        "title": "Tech Suport Advice",
-        "date": "May 2016 - Jan 2017",
-        "duties": [
-            " Promoted to Apple Support macOS and iOS Tier 1 within three months of starting in the iOS Tier 1 role, due to exceptional performance and consistently exceeding performance metrics.",
-            "Provided high-quality technical support to customers exclusively via phone during the launch of iOS 10 and macOS 10.12 Sierra, demonstrating excellent communication skills and the ability to adapt to different customer communication styles.",
-            "Utilized advanced diagnostic tools and expert product knowledge to troubleshoot and resolve complex technical issues related to both macOS and iOS operating systems, hardware, and software.", "Demonstrated a deep understanding of Apple products and services, enabling effective customer education and guidance on best practices for product usage and maintenance.", "Collaborated effectively with cross-functional teams to identify and escalate product issues, ensuring timely resolution and customer satisfaction."
-        ]
-    }
+
+  {
+    "id": 1,
+    "tabIndex": 6,
+    "logo": "/Apple.png",
+    "name": "Apple",
+    "company": "AppleCare",
+    "title": "Tech Suport Advice",
+    "date": "May 2016 - Jan 2017",
+    "duties": [
+      "Promoted to Apple Support macOS and iOS Tier 1 within three months of starting in the iOS Tier 1 role, due to exceptional performance and consistently exceeding performance metrics.",
+      "Provided high-quality technical support to customers exclusively via phone during the launch of iOS 10 and macOS 10.12 Sierra, demonstrating excellent communication skills and the ability to adapt to different customer communication styles.",
+      "Utilized advanced diagnostic tools and expert product knowledge to troubleshoot and resolve complex technical issues related to both macOS and iOS operating systems, hardware, and software.", "Demonstrated a deep understanding of Apple products and services, enabling effective customer education and guidance on best practices for product usage and maintenance.", "Collaborated effectively with cross-functional teams to identify and escalate product issues, ensuring timely resolution and customer satisfaction."
+    ]
+  },
+  {
+    "id": 2,
+    "tabIndex": 7,
+    "logo": "/SimpliSafe.png",
+    "name": "SimpliSafe",
+    "company": "SimpliSafe",
+    "title": "Tech Support Agent",
+    "date": "Oct 2018 - Feb 2019",
+    "duties": [
+      "Provided direct customer support on SimpliSafe products.",
+      "Assisted customers with purchases and technical support with SimpliSafe products.",
+      "Assisted troubleshooting connectivity issues and app issues plus teaching customers on how to use."
+    ]
+  },
+  {
+    "id": 3,
+    "tabIndex": 8,
+    "logo": "/Supra.png",
+    "name": "Supra",
+    "company": "Supra LockBox",
+    "title": "Tech Support Agent",
+    "date": "Apr 2019 - Aug 2019",
+    "duties": [
+      "Built knowledge of Information Technology Solutions to support customer's needs",
+      "Assisted with billing issues, leading to quick resolution and customer satisfaction.",
+      "Assisted customers with technical issues with Real Estate specific apps (iOS and Android) and handheld devices."
+    ]
+  },
+  {
+    "id": 4,
+    "tabIndex": 9,
+    "logo": "/Consumer cell.png",
+    "name": "ConsumerCell",
+    "title": "Tech Support Agent",
+    "company": "Consumer Cellular",
+    "date": "Jan 2020 - Sep 2020",
+    "duties": [
+      "Assisted customers with their cellular hardware and software issues such as Connectivity troubleshooting, app installation, and resetting, factory resetting, and iCloud/Google services account troubleshooting.",
+      "Used empathy, effective listening skills, and attention to detail to assist customers with billing issues.",
+      "Worked hard to establish rapport with customers, resulting in a more positive experience."
+    ]
+  },
+  {
+    "id": 5,
+    "tabIndex": 10,
+    "logo": "/Reboot.png",
+    "name": "Reboot",
+    "title": "Store Front Helpdesk",
+    "company": "Reboot Computers in Salem, OR",
+    "date": "Sep 2020 - Nov 2020",
+    "duties": [
+      "Supported customers dealing with consumer electronics issues via break/fix services.",
+      "Made sure repairs were scheduled and completed in a timely fashion.",
+      "Created an SOP for the owner to help create clear guidelines expected from future employees.",
+      "Built rapport with customers, creating repeat service.",
+      "Provided light technical support for phone and computer troubles such as Connectivity troubleshooting, app installation and resetting, factory resetting, and iCloud/Google services account troubleshooting."
+    ]
+  },
+  {
+    "id": 6,
+    "tabIndex": 11,
+    "logo": "/PPS.png",
+    "name": "PPS",
+    "title": "IT Support & Computer Deployment",
+    "company": "TekSystems @ Portland Public Schools (OTIS)",
+    "date": "Jul 2021 - Nov 2021",
+    "duties": [
+      "Supported Parents and Teachers dealing with Account issues using ZenDesk Tickets system.",
+      "Deployed around 150+ New and used Computers in schools, upgrading internal hardware (RAM, and GPUs) and troubleshooting hardware and software problems during the process before the project deadline.",
+      "Reimaged Windows PCs from Windows 7 to 10",
+      "Worked on plans for Teacher Policies in Windows Active Directory and Google Identity Services for Chrome extension force installs.",
+      "Performed cable management for existing computer setups for uniformity and quick access to asset tags for logging what hardware is in what location in an excel spreadsheet."
+    ]
+  },
+  {
+    "id": 7,
+    "tabIndex": 12,
+    "logo": "/Legacy Health.png",
+    "name": "Legacy",
+    "title": "Warehouse Tech Worker",
+    "company": "TekSystems @ Legacy Health",
+    "date": "Nov 2021 - May 2022",
+    "duties": [
+      "Supported customers dealing with consumer electronics issues via break/fix services.",
+      "Made sure repairs were scheduled and completed in a timely fashion.",
+      "Created an SOP for the owner to help create clear guidelines expected from future employees.",
+      "Built rapport with customers, creating repeat service."
+    ]
+  },
+  {
+    "id": 8,
+    "tabIndex": 13,
+    "logo": "/Nike.png",
+    "name": "Nike",
+    "title": "Deskside Tech",
+    "company": "AXA Pro @ Stephanini (@ Nike WHQ)",
+    "date": "May 2022 - May 2023",
+    "duties": [
+      "Provided expert deskside support to Nike employees at the World Head Quarters, troubleshooting and resolving complex technical issues related to hardware, software, and networking in a timely and efficient manner.",
+      "Collaborated with other IT support teams to identify and escalate issues, ensuring swift resolution and minimal impact to employee productivity.",
+      "Demonstrated advanced knowledge of Windows and macOS operating systems, as well as a variety of hardware, software, and networking technologies."
+    ]
+  },
+  {
+    "id": 9,
+    "tabIndex": 14,
+    "logo": "/Adidas.png",
+    "name": "Adidas",
+    "title": "Deskside Tech",
+    "company": "HCL @ Adidas",
+    "date": "Jul 2023 - Present",
+    "duties": [
+      "Web Development Experience",
+      "Created a Knowledge Base for my team to help with troubleshooting and training new employees.",
+      "Created a website for a yearly event where the IT department would get retired devices and sell them back to the employees for a discounted price. The website is at https://web54-techsale.vercel.app, it has an online store and an in person brochure with a live update of the product quantity to allow users to know when a product runs out and not waste company time with them waiting in line for a product that is no longer available.",
+      "",
+      "IT Experience",
+      "Provided expert deskside support to Adidas employees at the North American Head Quarts, troubleshooting and resolving complex technical issues related to hardware, software, and networking in a timely and efficient manner.",
+      "Collaborated with other IT support teams to identify and escalate issues, ensuring swift resolution and minimal impact to employee productivity.",
+      "Demonstrated advanced knowledge of Windows and macOS operating systems, as well as a variety of hardware, software, and networking technologies."
+    ]
+  }
 ]

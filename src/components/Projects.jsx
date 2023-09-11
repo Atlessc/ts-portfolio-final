@@ -1,7 +1,7 @@
 import { FooterSection } from "./footer";
 import { NavSection } from "./nav";
-import "./component.css";
-import "./Projects.css";
+import "../styles/component.css";
+import "../styles/Projects.css";
 
 export default function ProjectsPage() {
     return (

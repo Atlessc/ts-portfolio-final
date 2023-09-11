@@ -1,5 +1,5 @@
-import "./component.css";
-import "./contact.css";
+import "../styles/component.css";
+import "../styles/contact.css";
 import { FooterSection } from "./footer";
 import { NavSection } from "./nav";
 

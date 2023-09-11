@@ -1,7 +1,7 @@
 import React from 'react';
 import data from './certs.json';
-import './component.css';
-import './certs.css';
+import '../styles/component.css';
+import '../styles/certs.css';
 
 export const CertCards = () => {
 

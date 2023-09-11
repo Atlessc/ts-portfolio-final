@@ -1,5 +1,5 @@
-import "./component.css";
-import "./footer.css";
+import "../styles/component.css";
+import "../styles/footer.css"
 
 export function FooterSection() {
     return (

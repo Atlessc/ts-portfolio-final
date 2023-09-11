@@ -122,9 +122,9 @@
 
 @media screen and (min-width: 769px) and (max-width: 1024px) {
     .Contact {
-        border: 2px solid rgb(0, 0, 0);
-        background-color: rgb(155,155,155);
-        color: black;
+        border: 2px solid #87CEEB;
+        background-color: #36454F;
+        color: #ebd7ff;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -227,7 +227,6 @@
     .Conatct-SubmitBtn {
         width: 160px;
         height: 40px;
-        border: 2px solid rgb(0, 0, 0);
         border-radius: 10px;
         -webkit-border-radius: 10px;
         -moz-border-radius: 10px;
@@ -236,17 +235,18 @@
         margin: 0 auto;
         font-size: 20px;
         font-weight: bold;
-        background-color: rgb(163, 89, 89);
-        color: black;
+        border: 2px solid #87CEEB;
+        background-color: #36454F;
+        color: #ebd7ff;
         box-shadow: -5px 7px 0px rgba(0, 0, 0, 0.6);
     }
 }
 
 @media screen and (min-width: 501px) and (max-width: 768px) {
     .Contact {
-        border: 2px solid rgb(0, 0, 0);
-        background-color: rgb(155,155,155);
-        color: black;
+        border: 2px solid #87CEEB;
+        background-color: #36454F;
+        color: #ebd7ff;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -350,7 +350,6 @@
     .Conatct-SubmitBtn {
         width: 160px;
         height: 40px;
-        border: 2px solid rgb(0, 0, 0);
         border-radius: 10px;
         -webkit-border-radius: 10px;
         -moz-border-radius: 10px;
@@ -359,17 +358,18 @@
         margin: 0 auto;
         font-size: 20px;
         font-weight: bold;
-        background-color: rgb(163, 89, 89);
-        color: black;
+        border: 2px solid #87CEEB;
+        background-color: #36454F;
+        color: #ebd7ff;
         box-shadow: -5px 7px 0px rgba(0, 0, 0, 0.6);
     }
 }
 
 @media screen and (max-width: 500px) {
     .Contact {
-        border: 2px solid rgb(0, 0, 0);
-        background-color: rgb(155,155,155);
-        color: black;
+        border: 2px solid #87CEEB;
+        background-color: #36454F;
+        color: #ebd7ff;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -472,7 +472,6 @@
     .Conatct-SubmitBtn {
         width: 160px;
         height: 40px;
-        border: 2px solid rgb(0, 0, 0);
         border-radius: 10px;
         -webkit-border-radius: 10px;
         -moz-border-radius: 10px;
@@ -481,8 +480,9 @@
         margin: 0 auto;
         font-size: 20px;
         font-weight: bold;
-        background-color: rgb(163, 89, 89);
-        color: black;
+        border: 2px solid #87CEEB;
+        background-color: #36454F;
+        color: #ebd7ff;
         box-shadow: -5px 7px 0px rgba(0, 0, 0, 0.6);
     }
 }
