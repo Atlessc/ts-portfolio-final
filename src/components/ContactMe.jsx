@@ -10,7 +10,7 @@ export function ContactPage() {
     <div className="Contact">
             <div>
             <div className="Contact-Header">Contact Me</div>
-            <form action="https://formsubmit.co/tylersmith4596@gmail.com#" method="POST">
+            <form action="https://formsubmit.co/tylersmith4596@gmail.com" method="POST">
                 <label className="Contact-Name">
                     Name:
                     <input type="text" name="name" placeholder="John Smith" />
